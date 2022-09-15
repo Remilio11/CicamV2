@@ -1,0 +1,65 @@
+<!-- Cabecera -->
+<header class="header-aermet" id="inicio">
+    <div class="head">
+        <h1 class="titulo"> AERMET </h1>
+    </div>
+</header>
+<main>
+    <section class="contendor" id="CargarArchivos">
+        <h3 class="subtitulo"> Cargar Archivos de Meteorología</h3>
+        <div>
+            <!-- Sección para la subida de archivos -->
+            <div style="display: flex; justify-content: center;">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Cargar Archivo UPPERAIR</p>
+                        </td>
+                        <td>
+                            <input type="file" id="file1" (change)="onFileSelected($event)" />
+                        </td>
+                        <td>
+                            <button (click)="showModal()" class="boton_info" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-info" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="margin-left: 10px;">Cargar Archivo ONSITE</p>
+                        </td>
+                        <td>
+                            <input type="file" id="file2" (change)="onFileSelected2($event)" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <!-- Boton Generar -->
+            <div style="display: flex; justify-content: center;">
+                <button (click)="upload()" class="botones"
+                    onclick="document.getElementById('arcSal').style.display = 'block';">Generar</button>
+            </div>
+            <br>
+        </div>
+    </section>
+    <br>
+    <section id="arcSal" class="contenedor" style="display:none">
+        <h3 class="subtitulo"> Resultados </h3>
+        <p *ngIf="loading" style="display: flex; justify-content: center; color:#997156">Estamos realizando la petición,
+            por favor espere un momento...</p>
+        <br>
+        <div class="contenedor-descarga" style="display: flex; justify-content: center;">
+            <button (click)="downloadSFC()" class="botones">
+                Download SFC
+            </button>
+            <button (click)="downloadPFL()" style="margin-left: 10px;" class="botones">
+                Download PFL
+            </button>
+        </div>
+    </section>
+</main>

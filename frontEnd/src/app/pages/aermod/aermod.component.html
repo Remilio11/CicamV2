@@ -1,0 +1,308 @@
+<!-- Cabecera -->
+
+<header class="header-aermod" id="inicio">
+    <div class="head">
+        <h1 class="titulo"> AERMOD </h1>
+    </div>
+</header>
+
+<main>
+    <section class="contendor" id="CargarArchivos">
+        <h3 class="subtitulo"> Carga de Archivos</h3>
+        <div class="contenedor-archivosaermod">
+            <table class="tablaCA">
+                <tr>
+                    <td>
+                        <a class="subtitulo3">Cargar archivos de AERMET</a>
+                    </td>
+                    <td>
+                        <a class="subtitulo3">Cargar archivos de AERMAP</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Cargar Archivo SURFFILE </p>
+                        <input style="padding-left: 50px; padding-top: 10px;" type="file" />
+                    </td>
+                    <td>
+                        <p>Cargar Archivo INCLUDED </p>
+                        <input style="padding-left: 50px; padding-top: 10px;" type="file" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Cargar Archivo PROFFILE </p>
+                        <input style="padding-left: 50px; padding-top: 10px;" type="file" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="contendor" style="padding-top: 80px; margin-top: 15%;">
+        <!-- Entrada de Contaminantes -->
+        <h3 class="subtitulo"> Entradas </h3>
+        <div class="contenedor-entradasaermod">
+            <a class="subtitulo3">Variables : </a>
+
+            <select style="margin-left: 15%; ">
+                <option> </option>
+                <option onselect="document.getElementById('modelopt').style.display = 'block';
+                document.getElementById('modelopt1').style.display = 'block';
+                document.getElementById('modelopt2').style.display = 'block';" 
+                style="display: block;">MODELOPT </option>
+                <option>AVERTIME</option>
+                <option>POLLUTID</option>
+            </select>
+
+            <br><br><br>
+
+            <table style="margin-left: 15%; width: 500px; ">
+                <tr style="display:none">
+                    <td>
+                        <a id="modelopt" class="subtitulo3">MODELOPT</a>
+                    </td>
+                    <td>
+                        <input id="modelopt1" type="text" size=5 name="modelopt1" style="margin-left: 20%; ">
+                    </td>
+                    <td>
+                        <input id="modelopt2" type="text" size=5 name="modelopt1" style="margin-left: 20%; ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a id="avertime" class="subtitulo3">AVERTIME</a>
+                    </td>
+                    <td>
+                        <input type="text" size=5 name="avertime1" style="margin-left: 20%; ">
+                    </td>
+                    <td>
+                        <input type="text" size=5 name="avertime2" style="margin-left: 20%; ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="subtitulo3">POLLUTID</a>
+                    </td>
+                    <td>
+                        <input type="text" size=5 name="pollutid1" style="margin-left: 20%; ">
+                    </td>
+                    <td>
+                        <input type="text" size=5 name="pollutid2" style="margin-left: 20%; ">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="contendor" style="padding-top: 80px; margin-top: 15%; ">
+
+        <h3 class="subtitulo">Fuentes</h3>
+        <section class="contendor">
+            <!-- Entrada de Stacks -->
+
+            <div class="contenedor-entradasaermod">
+                <a class="subtitulo3">Variables : </a>
+                <select style="margin-left: 15%; ">
+                    <option> </option>
+                    <option>FUENTE 1</option>
+                    <option>FUENTE 2</option>
+                    <option>FUENTE 3</option>
+                </select>
+                <button class="boton_info" type="button" style="margin-left: 450px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                        class="bi bi-plus" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                    </svg>
+                </button>
+                <br><br><br>
+                <a>FUENTE1 POINT 695445 9854187 935.35 </a>
+                <br><br>
+                <div class="line"></div>
+
+                <!-- Contaminantes -->
+                <!-- Botón de Información -->
+                <button (click)="showModal()" class="boton_info" type="button" style="margin-left: 450px;"> <svg
+                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                    </svg></button>
+                <br>
+                <h4 class="subtitulo3" style=" text-align: left;">Contaminantes</h4>
+                <table style=" width: 550px; height:50px; text-align: center;">
+                    <tr>
+                        <td>
+                            <a>TE</a>
+                        </td>
+                        <td>
+                            <a>AF</a>
+                        </td>
+                        <td>
+                            <a>TG</a>
+                        </td>
+                        <td>
+                            <a>VG</a>
+                        </td>
+                        <td>
+                            <a>DF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" size=5 name="te">
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="af">
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="tg">
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="vg">
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="df">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </section>
+    </section>
+
+    <!-- Variables de Salida -->
+    <section class="contendor" style="padding-top: 500px;  ">
+
+        <h3 class="subtitulo">Variables de salida</h3>
+        <section class="contendor">
+            <div class="contenedor-salidasaermod">
+                <a class="subtitulo3">Variables : </a>
+                <select style="margin-left: 15%; ">
+                    <option> </option>
+                    <option>RECTABLE </option>
+                    <option>MAXTABLE</option>
+                    <option>RANKFILE</option>
+                    <option>SUMMFILE</option>
+                </select>
+            </div>
+            <br><br><br><br>
+            <div class="contenedor-entradas">
+                <table class="tablaVS">
+                    <tr>
+                        <td>
+                            <a>RECTABLE</a>
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="modelopt1" style="margin-left: 20%; ">
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="modelopt1" style="margin-left: 20%; ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>MAXTABLE</a>
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="avertime1" style="margin-left: 20%; ">
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="avertime2" style="margin-left: 20%; ">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>MAXIFILE</a>
+                        </td>
+                        <td>
+                            <input type="text" size=5 name="pollutid1" style="margin-left: 20%; ">
+                        </td>
+
+                        <td>
+                            <input type="text" size=5 name="pollutid2" style="margin-left: 20%; ">
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Boton Generar -->
+    <section class="contendor" style="padding-top: 50px;">
+        <div class="contenedor-btngenerar">
+            <input class="botones" value="Generar" type="button" onclick="document.getElementById('barpro').style.display = 'block';
+            document.getElementById('arcSal').style.display = 'block';" style="display: block;" />
+        </div>
+    </section>
+
+    <!-- Barra de Progreso -->
+    <section id="barpro" class="contenedorcarga" style="display:none">
+        <progress class="tamcarga" max="100" value="50"></progress>
+    </section>
+
+    <!-- Descarga de Archivos -->
+    <section id="arcSal" class="contenedor" style="display:none">
+        <h3 class="subtitulo"> Archivos de salida </h3>
+        <div class="contenedor-descarga">
+            <table style=" width: 600px; height: 100px;">
+                <tr>
+                    <td>
+                        <a class="subtitulo3">RANKFILE</a>
+                    </td>
+                    <td>
+                        Archivo .rnk
+                    </td>
+                    <td>
+                        <a class="boton-a" href="" download="Descarga .sfc">
+                            Descargar
+                        </a>
+                    </td>
+                    <td>
+                        <a class="subtitulo3">PLOTFILE</a>
+                    </td>
+                    <td>
+                        Archivo .plt
+                    </td>
+                    <td>
+                        <a class="boton-a" href="" download="Descarga .sfc">
+                            Descargar
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="subtitulo3">MAXIFILE</a>
+                    </td>
+                    <td>
+                        Archivo .out
+                    </td>
+                    <td>
+                        <a class="boton-a" href="" download="Descarga .sfc">
+                            Descargar
+                        </a>
+                    </td>
+                    <td>
+                        <a class="subtitulo3">SUMMFILE</a>
+                    </td>
+                    <td>
+                        Archivo .sum
+                    </td>
+                    <td>
+                        <a class="boton-a" href="" download="Descarga .sfc">
+                            Descargar
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Descarga de Archivos -->
+    <div>
+
+    </div>
+</main>

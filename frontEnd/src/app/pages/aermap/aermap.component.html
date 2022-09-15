@@ -1,0 +1,452 @@
+<!-- Cabecera -->
+<header class="header-aermap" id="inicio">
+    <div class="head">
+        <h1 class="titulo"> AERMAP </h1>
+    </div>
+</header>
+<main>
+    <section class="contendor" id="CargarArchivos">
+        <h3 class="subtitulo"> Archivos GeoTIFF</h3>
+        <div>
+            <!-- Sección para la subida de archivos -->
+            <div style="display: flex; justify-content: center;">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Cargar Archivo TIFF</p>
+                        </td>
+                        <td>
+                            <input type="file" id="file1" (change)="onFileSelected($event)" />
+                        </td>
+                        <td>
+                            <button (click)="showModal()" class="boton_info" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-info" viewBox="0 0 16 16">
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p style="margin-left: 10px;">Cargar Archivo TIFF</p>
+                        </td>
+                        <td>
+                            <input type="file" id="file2" (change)="onFileSelected2($event)" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <!-- Formulario de AERMAP-->
+    <form [formGroup]="aermap" (ngSubmit)="generar()">
+        <!-- Dominio de Cuadricula-->
+        <section class="contenedor" id="Entrada de Datos" style="padding-top: 60px; margin-top: 15%;">
+            <!-- Segmento de Entradas -->
+            <div class="starter-template">
+                <div class="contenedor-entradas">
+                    <h3 class="subtitulo2"> Dominio de Cuadrícula </h3>
+                    <div class="contenedor-entradas-Dom"
+                        style=" border-style: solid; border-color: #997156; border-width: thin; width: 300px; padding-left: 50px; margin-left: 255px;">
+
+                        <table style="min-width: 235px; height: 100px;">
+                            <tr>
+                                <td>
+                                    <a>X </a>
+                                </td>
+                                <td>
+                                    <input type="text" size=8 formControlName="X" placeholder="Coord en X">
+                                    <div class="smsError"
+                                        *ngIf="domCuadricula.get('X')?.hasError('required') && domCuadricula.get('X')?.touched">
+                                        <p>Este campo es <strong>obligatorio</strong></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a>Y </a>
+                                </td>
+                                <td>
+                                    <input type="text" size=8 formControlName="Y" placeholder="Coord en Y">
+                                    <div class="smsError"
+                                        *ngIf="domCuadricula.get('Y')?.hasError('required') && domCuadricula.get('Y')?.touched">
+                                        <p>Este campo es <strong>obligatorio</strong></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a>Zona </a>
+                                </td>
+                                <td>
+                                    <input type="text" size=8 formControlName="Zona" placeholder="Zona">
+                                    <div class="smsError"
+                                        *ngIf="domCuadricula.get('Zona')?.hasError('required') && domCuadricula.get('Zona')?.touched">
+                                        <p>Este campo es <strong>obligatorio</strong></p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                    <!-- Boton Verificar -->
+                    <section class="contendor">
+                        <div class="contenedor-btngenerar">
+                            <button [disabled]="domCuadricula.invalid" onclick="validarCoord" class="botones">Verificar</button>
+                        </div>
+                    </section>
+
+                    <!-- mapa -->
+                    <div style="padding-top: 20px;">
+                        <google-map width="500px" height="400px" [center]="position">
+                            <map-marker [position]="position">
+                            </map-marker>
+                        </google-map>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="line"></div>
+
+        <section class="contenedor" id="Entrada de Datos" style="padding-top: 60px; margin-top: 15%;">
+            <div class="contenedor-entradas">
+                <h3 class="subtitulo2">Identificación del Sistema de Coordenadas</h3>
+                <div class="contenedor-entradas-SisCoord"
+                    style=" border-style: solid; border-color: #997156; border-width: thin; width: 300px; padding-left: 50px;">
+                    <table style="min-width: 235px; height: 130px;">
+                        <tr>
+                            <td>
+                                <a>X </a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="X_SC" placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('X_SC')?.hasError('required') && aermap.get('X_SC')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Y </a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="Y_SC" placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('Y_SC')?.hasError('required') && aermap.get('Y_SC')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Zona </a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="Zona_SC" placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('Zona_SC')?.hasError('required') && aermap.get('Zona_SC')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Datum Horizontal </a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="DatoHorizontal"
+                                    placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('DatoHorizontal')?.hasError('required') && aermap.get('DatoHorizontal')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                            <td>
+                                <a>0 - 6</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div class="line"></div>
+
+        <section class="contenedor" id="Entrada de Datos" style="padding-top: 60px; margin-top: 15%;">
+            <div class="contenedor-entradas">
+                <h3 class="subtitulo2">Fuentes</h3>
+                <div class="contenedor-entradas-SisCoord"
+                    style=" border-style: solid; border-color: #997156; border-width: thin; width: 300px; padding-left: 50px;">
+                    <div *ngFor="let fuente of fuentes; index as i; first as isFirst">
+                        <!-- Mostrar en pantalla las fuentes guardadas -->
+                        <p>{{fuente.latitud}} - {{fuente.longitud}} - {{fuente.hlvlMar}}
+                            <span (click)="deleteItem(fuente.latitud, fuente.longitud)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+                                </svg>
+                            </span>
+                        </p>
+                    </div>
+                    <table style="min-width: 235px; height: 130px;">
+                        <tr>
+                            <td>
+                                <a>Longitud</a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="longitud" placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('longitud')?.hasError('required') && aermap.get('longitud')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Latitud</a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="latitud" placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('Latitud')?.hasError('required') && aermap.get('Latitud')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a>Altura a Nivel del Mar </a>
+                            </td>
+                            <td>
+                                <input type="text" size=5 formControlName="hlvlMar" placeholder="Ingrese el dato">
+                                <div class="smsError"
+                                    *ngIf="aermap.get('hlvlMar')?.hasError('required') && aermap.get('hlvlMar')?.touched">
+                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Boton más -->
+                    <button class="boton_info" type="button" style="margin-left: 350px;" (click)="addData()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-plus" viewBox="0 0 16 16">
+                            <path
+                                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contenedor">
+            <div>
+                <h3 class="subtitulo"> Receptores </h3>
+                <div class="contenedor-receptores">
+                    <label for="Receptores por Cuadricula">Receptores por Cuadricula</label>
+                </div>
+                <div>
+                    <div id="1" class="contenedor-receptores">
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="subtitulo3">
+                                        <a>X</a>
+                                    </div>
+                                    <table class="tablasReceptores">
+                                        <tr>
+                                            <td>
+                                                <a>Inicio de Cuadricula (UTM) </a>
+                                            </td>
+                                            <td>
+                                                <input type="text" size=5 formControlName="X_InicioCuad_RC"
+                                                    placeholder="Ingrese el dato">
+                                                <div class="smsError"
+                                                    *ngIf="aermap.get('X_InicioCuad_RC')?.hasError('required') && aermap.get('X_InicioCuad_RC')?.touched">
+                                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a>Número de Receptores</a>
+                                            </td>
+                                            <td>
+                                                <input type="text" size=5 formControlName="X_NumRep_RC"
+                                                    placeholder="Ingrese el dato">
+                                                <div class="smsError"
+                                                    *ngIf="aermap.get('X_NumRep_RC')?.hasError('required') && aermap.get('X_NumRep_RC')?.touched">
+                                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a>Separación de Receptores (m)</a>
+                                            </td>
+                                            <td>
+                                                <input type="text" size=5 formControlName="X_SepRep_RC"
+                                                    placeholder="Ingrese el dato">
+                                                <div class="smsError"
+                                                    *ngIf="aermap.get('X_SepRep_RC')?.hasError('required') && aermap.get('X_SepRep_RC')?.touched">
+                                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+
+                                <td>
+                                    <div class="subtitulo3">
+                                        <a> Y </a>
+                                    </div>
+                                    <table class="tablasReceptores">
+                                        <tr>
+                                            <td>
+                                                <a>Inicio de Cuadricula (UTM) </a>
+                                            </td>
+                                            <td>
+                                                <input type="text" size=5 formControlName="Y_InicioCuad_RC"
+                                                    placeholder="Ingrese el dato">
+                                                <div class="smsError"
+                                                    *ngIf="aermap.get('Y_InicioCuad_RC')?.hasError('required') && aermap.get('Y_InicioCuad_RC')?.touched">
+                                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a>Número de Receptores</a>
+                                            </td>
+                                            <td>
+                                                <input type="text" size=5 formControlName="Y_NumRep_RC"
+                                                    placeholder="Ingrese el dato">
+                                                <div class="smsError"
+                                                    *ngIf="aermap.get('Y_NumRep_RC')?.hasError('required') && aermap.get('Y_NumRep_RC')?.touched">
+                                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a>Separación de Receptores (m)</a>
+                                            </td>
+                                            <td>
+                                                <input type="text" size=5 formControlName="Y_SepRep_RC"
+                                                    placeholder="Ingrese el dato">
+                                                <div class="smsError"
+                                                    *ngIf="aermap.get('Y_SepRep_RC')?.hasError('required') && aermap.get('Y_SepRep_RC')?.touched">
+                                                    <p>Este campo es <strong>obligatorio</strong></p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="2" style="display:none">
+                        <div class="contenedor-receptores">
+                            <table class="tablasReceptores1">
+                                <tr>
+                                    <td>
+                                        <p> X </p>
+                                    </td>
+                                    <td>
+                                        <input type="text" size=5 formControlName="X_PE" placeholder="Ingrese el dato">
+                                        <div class="smsError"
+                                            *ngIf="aermap.get('X_PE')?.hasError('required') && aermap.get('X_PE')?.touched">
+                                            <p>Este campo es <strong>obligatorio</strong></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Y </p>
+                                    </td>
+                                    <td>
+                                        <input type="text" size=5 formControlName="Y_PE" placeholder="Ingrese el dato">
+                                        <div class="smsError"
+                                            *ngIf="aermap.get('Y_PE')?.hasError('required') && aermap.get('Y_PE')?.touched">
+                                            <p>Este campo es <strong>obligatorio</strong></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="3" style="display:none">
+                        <div class="contenedor-receptores">
+                            <table class="tablasReceptores1">
+                                <tr>
+                                    <td>
+                                        <p> X </p>
+                                    </td>
+                                    <td>
+                                        <input type="text" size=5 formControlName="X_PRD" placeholder="Ingrese el dato">
+                                        <div class="smsError"
+                                            *ngIf="aermap.get('X_PRD')?.hasError('required') && aermap.get('X_PRD')?.touched">
+                                            <p>Este campo es <strong>obligatorio</strong></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Y </p>
+                                    </td>
+                                    <td>
+                                        <input type="text" size=5 formControlName="Y_PRD" placeholder="Ingrese el dato">
+                                        <div class="smsError"
+                                            *ngIf="aermap.get('Y_PRD')?.hasError('required') && aermap.get('Y_PRD')?.touched">
+                                            <p>Este campo es <strong>obligatorio</strong></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boton Generar -->
+        <section class="contendor">
+            <div>
+                <p>{{error}}</p>
+                {{loading ? "Cargando" : "Pulsa enviar para generar"}}
+            </div>
+            <div class="contenedor-btngenerar">
+                <button class="botones" type="submit">Generar</button>
+            </div>
+        </section>
+    </form>
+
+    <br>
+    <!-- Boton Ejecutar aermap.exe -->
+    <div style="display: flex; justify-content: center;">
+        <button (click)="upload()" class="botones"
+            onclick="document.getElementById('arcSal').style.display = 'block';">Cargar</button>
+    </div>
+
+
+    <br>
+    <section id="arcSal" class="contenedor" style="display:none">
+        <h3 class="subtitulo"> Resultados </h3>
+        <p *ngIf="loading" style="display: flex; justify-content: center; color:#997156">Estamos realizando la petición,
+            por favor espere un momento...</p>
+        <br>
+        <div class="contenedor-descarga" style="display: flex; justify-content: center;">
+            <button (click)="downloadROU()" class="botones">
+                Download ROU
+            </button>
+        </div>
+    </section>
+</main>

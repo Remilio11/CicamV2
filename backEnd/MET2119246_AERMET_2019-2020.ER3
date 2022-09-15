@@ -1,0 +1,1906 @@
+         METPREP    I88 AERSURF : AERSURF file opened successfully:  MET2119246_AERMET_MMIF-AERSURFACE.OUT
+         METPREP    I19 AERSURF : "END OF FILE" on unit   5 after AERSURF file record #  22
+         JOB        I19  SETUP  : "END OF FILE" ON UNIT  5 AFTER RECORD #  39
+         JOB        W21 OSTEST  : OSHEIGHTS and HTnn both specified. OSHEIGHTS keyword will be used and HTnn variables ignored.
+         METPREP    I81 FNDCOMDT: ASOS commission date NOT found for WBAN =      0; of Call_ID =
+  190101 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190101 METPREP    I84  MPPBL  : UAID =   1 for HR:   7 LST
+  190102 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 07
+  190102 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190102 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190103 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190103 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190104 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190104 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190105 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190105 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190106 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190106 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190107 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  190107 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190107 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190108 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190108 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190109 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 05
+  190109 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190109 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190110 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 17
+  190110 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.2) set to +0.1 for hr: 18
+  190110 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190110 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190111 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190111 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190112 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 03
+  190112 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190112 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190113 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190113 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190114 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190114 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190115 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 03
+  190115 METPREP    I80  SUBST  : OS ref WSPD (  0.07) < MIN - reset to 0.28m/s for hour: 21
+  190115 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190115 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190116 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190116 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190117 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190117 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190118 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190118 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190119 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190119 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190120 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190120 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190121 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190121 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190122 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 19
+  190122 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190122 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190123 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  190123 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190123 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190124 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190124 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190125 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190125 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190126 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190126 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190127 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr:  8
+  190127 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.2) set to +0.1 for hr: 17
+  190127 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  190127 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190127 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190128 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 07
+  190128 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190128 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190129 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190129 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190130 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190130 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190131 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190131 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190201 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  190201 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190201 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190202 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 06
+  190202 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  190202 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190202 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190203 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190203 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190204 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190204 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190205 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190205 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190206 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190206 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190207 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190207 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190208 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190208 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190209 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190209 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190210 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190210 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190211 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190211 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190212 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190212 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190213 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  190213 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190213 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190214 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 01
+  190214 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190214 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190215 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190215 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190216 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190216 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190217 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190217 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190218 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190218 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190219 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190219 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190220 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190220 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190221 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190221 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190222 METPREP    I80  SUBST  : OS ref WSPD (  0.13) < MIN - reset to 0.28m/s for hour: 04
+  190222 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.9) set to +0.1 for hr: 18
+  190222 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190222 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190223 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190223 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190224 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 20
+  190224 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190224 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190225 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190225 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190226 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190226 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190227 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.2) set to +0.1 for hr: 18
+  190227 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 22
+  190227 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190227 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190228 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  190228 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190228 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190301 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190301 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190302 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190302 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190303 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190303 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190304 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190304 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190305 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 01
+  190305 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190305 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190306 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 04
+  190306 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190306 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190307 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190307 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190308 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190308 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190309 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190309 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190310 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 04
+  190310 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 05
+  190310 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190310 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190311 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 03
+  190311 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190311 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190312 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190312 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190313 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190313 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190314 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190314 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190315 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190315 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190316 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190316 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190317 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190317 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190318 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190318 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190319 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190319 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190320 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190320 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190321 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 19
+  190321 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190321 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190322 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190322 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190323 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190323 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190324 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 02
+  190324 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190324 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190325 METPREP    I80  SUBST  : OS ref WSPD (  0.06) < MIN - reset to 0.28m/s for hour: 03
+  190325 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190325 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190326 METPREP    I80  SUBST  : OS ref WSPD (  0.06) < MIN - reset to 0.28m/s for hour: 20
+  190326 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190326 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190327 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190327 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190328 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190328 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190329 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  190329 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190329 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190330 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  190330 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190330 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190331 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  190331 METPREP    I80  SUBST  : OS ref WSPD (  0.05) < MIN - reset to 0.28m/s for hour: 24
+  190331 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190331 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190401 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190401 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190402 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  190402 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190402 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190403 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 04
+  190403 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 06
+  190403 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190403 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190404 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  190404 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190404 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190405 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190405 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190406 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190406 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190407 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 04
+  190407 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190407 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190408 METPREP    I80  SUBST  : OS ref WSPD (  0.12) < MIN - reset to 0.28m/s for hour: 19
+  190408 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190408 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190409 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190409 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190410 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 05
+  190410 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 23
+  190410 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190410 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190411 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190411 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190412 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190412 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190413 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190413 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190414 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190414 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190415 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 02
+  190415 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190415 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190416 METPREP    I80  SUBST  : OS ref WSPD (  0.11) < MIN - reset to 0.28m/s for hour: 07
+  190416 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  190416 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190416 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190417 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190417 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190418 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190418 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190419 METPREP    I80  SUBST  : OS ref WSPD (  0.13) < MIN - reset to 0.28m/s for hour: 07
+  190419 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  190419 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190419 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190420 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190420 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190421 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190421 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190422 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  190422 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190422 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190423 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190423 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190424 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190424 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190425 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190425 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190426 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  190426 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190426 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190427 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190427 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190428 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190428 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190429 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190429 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190430 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 03
+  190430 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190430 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190501 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  190501 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190501 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190502 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  190502 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190502 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190503 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190503 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190504 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190504 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190505 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190505 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190506 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190506 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190507 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  190507 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190507 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190508 METPREP    I80  SUBST  : OS ref WSPD (  0.07) < MIN - reset to 0.28m/s for hour: 07
+  190508 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190508 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190509 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190509 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190510 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190510 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190511 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190511 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190512 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  190512 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190512 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190513 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190513 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190514 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190514 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190515 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190515 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190516 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190516 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190517 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190517 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190518 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  190518 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190518 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190519 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 07
+  190519 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.0) set to +0.1 for hr: 18
+  190519 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190519 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190520 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190520 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190521 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  190521 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190521 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190522 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.0) set to +0.1 for hr: 18
+  190522 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190522 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190523 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 07
+  190523 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190523 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190524 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 07
+  190524 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.0) set to +0.1 for hr: 18
+  190524 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190524 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190525 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190525 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190526 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190526 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190527 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.8) set to +0.1 for hr: 18
+  190527 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190527 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190528 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 22
+  190528 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190528 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190529 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.8) set to +0.1 for hr: 18
+  190529 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190529 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190530 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.3) set to +0.1 for hr: 18
+  190530 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190530 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190531 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 01
+  190531 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.7) set to +0.1 for hr: 18
+  190531 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190531 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190601 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 03
+  190601 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190601 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190602 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190602 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190603 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190603 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190604 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 07
+  190604 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.5) set to +0.1 for hr: 18
+  190604 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190604 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190605 METPREP    I80  SUBST  : OS ref WSPD (  0.07) < MIN - reset to 0.28m/s for hour: 07
+  190605 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.3) set to +0.1 for hr: 18
+  190605 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190605 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190606 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  190606 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190606 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190607 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  190607 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190607 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190608 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190608 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190609 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  190609 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 19
+  190609 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190609 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190610 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  190610 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190610 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190611 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  190611 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190611 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190612 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 23
+  190612 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190612 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190613 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190613 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190614 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 02
+  190614 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  190614 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190614 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190615 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.6) set to +0.1 for hr: 18
+  190615 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190615 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190616 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 18
+  190616 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190616 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190617 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190617 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190618 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  190618 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190618 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190619 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.7) set to +0.1 for hr: 18
+  190619 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190619 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190620 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 06
+  190620 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190620 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190621 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  190621 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190621 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190622 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.8) set to +0.1 for hr: 18
+  190622 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190622 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190623 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.5) set to +0.1 for hr: 18
+  190623 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 23
+  190623 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190623 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190624 METPREP    I80  SUBST  : OS ref WSPD (  0.06) < MIN - reset to 0.28m/s for hour: 07
+  190624 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190624 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190625 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190625 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190626 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 06
+  190626 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190626 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190627 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 06
+  190627 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 07
+  190627 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190627 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190628 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190628 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190629 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190629 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190630 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190630 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190701 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190701 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190702 METPREP    I80  SUBST  : OS ref WSPD (  0.06) < MIN - reset to 0.28m/s for hour: 04
+  190702 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190702 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190703 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190703 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190704 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190704 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190705 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190705 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190706 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 17
+  190706 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.8) set to +0.1 for hr: 18
+  190706 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190706 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190707 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  190707 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190707 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190708 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 04
+  190708 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190708 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190709 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 04
+  190709 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190709 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190710 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190710 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190711 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190711 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190712 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190712 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190713 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190713 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190714 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 07
+  190714 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 20
+  190714 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190714 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190715 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190715 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190716 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190716 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190717 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190717 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190718 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 19
+  190718 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190718 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190719 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190719 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190720 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.3) set to +0.1 for hr: 18
+  190720 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190720 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190721 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190721 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190722 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190722 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190723 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190723 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190724 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190724 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190725 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190725 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190726 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190726 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190727 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 02
+  190727 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190727 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190728 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 02
+  190728 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190728 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190729 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190729 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190730 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190730 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190731 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190731 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190801 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 05
+  190801 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190801 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190802 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190802 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190803 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190803 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190804 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190804 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190805 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190805 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190806 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190806 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190807 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 24
+  190807 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190807 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190808 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190808 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190809 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190809 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190810 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190810 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190811 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190811 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190812 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190812 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190813 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190813 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190814 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -5.9) set to +0.1 for hr: 18
+  190814 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190814 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190815 METPREP    I80  SUBST  : OS ref WSPD (  0.03) < MIN - reset to 0.28m/s for hour: 02
+  190815 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190815 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190816 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190816 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190817 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190817 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190818 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190818 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190819 METPREP    I80  SUBST  : OS ref WSPD (  0.13) < MIN - reset to 0.28m/s for hour: 02
+  190819 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190819 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190820 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 23
+  190820 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190820 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190821 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 01
+  190821 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 04
+  190821 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190821 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190822 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.0) set to +0.1 for hr: 18
+  190822 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190822 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190823 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190823 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190824 METPREP    I80  SUBST  : OS ref WSPD (  0.03) < MIN - reset to 0.28m/s for hour: 01
+  190824 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190824 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190825 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190825 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190826 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190826 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190827 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 03
+  190827 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190827 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190828 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 02
+  190828 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 05
+  190828 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190828 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190829 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190829 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190830 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190830 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190831 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190831 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190901 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190901 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190902 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 01
+  190902 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190902 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190903 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190903 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190904 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190904 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190905 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.2) set to +0.1 for hr: 18
+  190905 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190905 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190906 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190906 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190907 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190907 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190908 METPREP    I80  SUBST  : OS ref WSPD (  0.13) < MIN - reset to 0.28m/s for hour: 07
+  190908 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190908 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190909 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 02
+  190909 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.8) set to +0.1 for hr: 18
+  190909 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190909 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190910 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.3) set to +0.1 for hr: 18
+  190910 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190910 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190911 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  190911 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190911 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190912 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190912 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190913 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190913 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190914 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.0) set to +0.1 for hr: 18
+  190914 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190914 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190915 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  190915 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190915 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190916 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.1) set to +0.1 for hr: 18
+  190916 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190916 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190917 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 02
+  190917 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.5) set to +0.1 for hr: 18
+  190917 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 19
+  190917 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190917 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190918 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 04
+  190918 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.8) set to +0.1 for hr: 18
+  190918 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190918 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190919 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190919 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190920 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190920 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190921 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190921 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190922 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190922 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190923 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190923 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190924 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.7) set to +0.1 for hr: 18
+  190924 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190924 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190925 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.7) set to +0.1 for hr: 18
+  190925 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190925 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190926 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.9) set to +0.1 for hr: 18
+  190926 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190926 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190927 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.3) set to +0.1 for hr: 18
+  190927 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190927 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190928 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.4) set to +0.1 for hr: 18
+  190928 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190928 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190929 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -5.4) set to +0.1 for hr: 18
+  190929 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 19
+  190929 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190929 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  190930 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 01
+  190930 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.8) set to +0.1 for hr: 18
+  190930 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  190930 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191001 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191001 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191002 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.6) set to +0.1 for hr: 18
+  191002 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191002 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191003 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.6) set to +0.1 for hr: 18
+  191003 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191003 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191004 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.6) set to +0.1 for hr: 18
+  191004 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191004 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191005 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.2) set to +0.1 for hr: 18
+  191005 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191005 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191006 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.6) set to +0.1 for hr: 18
+  191006 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191006 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191007 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  191007 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191007 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191008 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.9) set to +0.1 for hr: 18
+  191008 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191008 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191009 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.9) set to +0.1 for hr: 18
+  191009 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191009 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191010 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191010 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191011 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.7) set to +0.1 for hr: 18
+  191011 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191011 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191012 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191012 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191013 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191013 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191014 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191014 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191015 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 02
+  191015 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191015 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191016 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 06
+  191016 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191016 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191017 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  191017 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191017 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191018 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191018 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191019 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191019 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191020 METPREP    I80  SUBST  : OS ref WSPD (  0.03) < MIN - reset to 0.28m/s for hour: 06
+  191020 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191020 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191021 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191021 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191022 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191022 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191023 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  191023 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191023 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191024 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191024 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191025 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191025 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191026 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191026 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191027 METPREP    I80  SUBST  : OS ref WSPD (  0.07) < MIN - reset to 0.28m/s for hour: 22
+  191027 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191027 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191028 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191028 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191029 METPREP    I80  SUBST  : OS ref WSPD (  0.12) < MIN - reset to 0.28m/s for hour: 06
+  191029 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191029 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191030 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191030 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191031 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191031 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191101 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191101 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191102 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 03
+  191102 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191102 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191103 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191103 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191104 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191104 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191105 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 02
+  191105 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191105 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191106 METPREP    I80  SUBST  : OS ref WSPD (  0.05) < MIN - reset to 0.28m/s for hour: 05
+  191106 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191106 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191107 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.7) set to +0.1 for hr: 18
+  191107 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191107 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191108 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191108 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191109 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191109 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191110 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191110 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191111 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr:  7
+  191111 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191111 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191112 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191112 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191113 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191113 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191114 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 01
+  191114 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 05
+  191114 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191114 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191115 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191115 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191116 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 04
+  191116 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191116 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191117 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191117 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191118 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191118 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191119 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191119 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191120 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 04
+  191120 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191120 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191121 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191121 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191122 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191122 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191123 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191123 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191124 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191124 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191125 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191125 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191126 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191126 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191127 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191127 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191128 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 17
+  191128 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -5.4) set to +0.1 for hr: 18
+  191128 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191128 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191129 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191129 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191130 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191130 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191201 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.9) set to +0.1 for hr: 18
+  191201 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191201 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191202 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.6) set to +0.1 for hr: 18
+  191202 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191202 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191203 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.1) set to +0.1 for hr: 18
+  191203 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191203 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191204 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191204 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191205 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.9) set to +0.1 for hr: 18
+  191205 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191205 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191206 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191206 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191207 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  191207 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 20
+  191207 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191207 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191208 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 05
+  191208 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.9) set to +0.1 for hr: 18
+  191208 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 23
+  191208 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191208 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191209 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191209 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191210 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191210 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191211 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191211 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191212 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191212 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191213 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 18
+  191213 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191213 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191214 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 07
+  191214 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 18
+  191214 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  191214 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191214 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191215 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191215 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191216 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191216 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191217 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 07
+  191217 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 18
+  191217 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191217 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191218 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191218 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191219 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 07
+  191219 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191219 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191220 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 04
+  191220 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  191220 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191220 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191221 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  191221 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191221 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191222 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191222 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191223 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 05
+  191223 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.9) set to +0.1 for hr: 18
+  191223 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191223 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191224 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.2) set to +0.1 for hr: 18
+  191224 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191224 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191225 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191225 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191226 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.0) set to +0.1 for hr: 18
+  191226 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191226 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191227 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 05
+  191227 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191227 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191228 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 01
+  191228 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191228 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191229 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 06
+  191229 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191229 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191230 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  191230 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191230 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  191231 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 06
+  191231 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  191231 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200101 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 06
+  200101 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200101 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200102 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 17
+  200102 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.8) set to +0.1 for hr: 18
+  200102 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200102 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200103 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 05
+  200103 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.7) set to +0.1 for hr: 18
+  200103 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200103 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200104 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200104 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200105 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 04
+  200105 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 06
+  200105 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200105 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200106 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  200106 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200106 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200107 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200107 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200108 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 07
+  200108 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200108 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200109 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200109 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200110 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200110 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200111 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 06
+  200111 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200111 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200112 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 05
+  200112 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200112 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200113 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200113 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200114 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200114 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200115 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200115 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200116 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200116 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200117 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200117 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200118 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.2) set to +0.1 for hr: 18
+  200118 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200118 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200119 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  200119 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200119 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200120 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200120 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200121 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200121 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200122 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 07
+  200122 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200122 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200123 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200123 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200124 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200124 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200125 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200125 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200126 METPREP    I80  SUBST  : OS ref WSPD (  0.09) < MIN - reset to 0.28m/s for hour: 20
+  200126 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200126 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200127 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200127 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200128 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200128 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200129 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200129 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200130 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200130 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200131 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 24
+  200131 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200131 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200201 METPREP    I80  SUBST  : OS ref WSPD (  0.12) < MIN - reset to 0.28m/s for hour: 21
+  200201 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200201 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200202 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 03
+  200202 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200202 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200203 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200203 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200204 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200204 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200205 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200205 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200206 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200206 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200207 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200207 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200208 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200208 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200209 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200209 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200210 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200210 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200211 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 22
+  200211 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200211 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200212 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200212 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200213 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 19
+  200213 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200213 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200214 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 21
+  200214 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200214 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200215 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200215 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200215 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200216 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200216 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200217 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200217 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200218 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200218 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200219 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200219 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200220 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200220 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200221 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200221 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200222 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  200222 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200222 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200223 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200223 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200224 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr:  8
+  200224 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200224 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200225 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 07
+  200225 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200225 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200226 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  200226 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200226 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200227 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200227 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200228 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200228 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200229 METPREP    I80  SUBST  : OS ref WSPD (  0.09) < MIN - reset to 0.28m/s for hour: 07
+  200229 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200229 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200301 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200301 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200302 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200302 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200303 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200303 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200304 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 21
+  200304 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200304 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200305 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.0) set to +0.1 for hr: 18
+  200305 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200305 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200306 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 03
+  200306 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200306 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200307 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 08
+  200307 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200307 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200308 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 05
+  200308 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200308 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200309 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 19
+  200309 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200309 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200310 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200310 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200311 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200311 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 22
+  200311 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200311 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200312 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200312 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200313 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200313 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200314 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200314 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200315 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 22
+  200315 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200315 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200316 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 18
+  200316 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200316 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200317 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  200317 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200317 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200318 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 07
+  200318 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 22
+  200318 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200318 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200319 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  200319 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200319 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200320 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200320 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200321 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200321 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200322 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200322 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200323 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.7) set to +0.1 for hr: 18
+  200323 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200323 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200324 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 05
+  200324 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200324 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200325 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 20
+  200325 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 21
+  200325 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200325 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200326 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200326 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200327 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200327 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200328 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200328 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200329 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200329 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200330 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200330 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200331 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 04
+  200331 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200331 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200401 METPREP    I80  SUBST  : OS ref WSPD (  0.11) < MIN - reset to 0.28m/s for hour: 06
+  200401 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  200401 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200401 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200402 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200402 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200403 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 06
+  200403 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200403 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200404 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200404 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200405 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 04
+  200405 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 07
+  200405 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200405 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200406 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200406 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200407 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200407 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200408 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200408 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200408 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200409 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200409 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200410 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200410 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200411 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.2) set to +0.1 for hr: 18
+  200411 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200411 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200412 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 24
+  200412 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200412 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200413 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200413 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200414 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  200414 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200414 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200415 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200415 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200416 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 05
+  200416 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200416 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200417 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200417 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200418 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.2) set to +0.1 for hr: 18
+  200418 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200418 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200419 METPREP    I80  SUBST  : OS ref WSPD (  0.10) < MIN - reset to 0.28m/s for hour: 17
+  200419 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200419 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200420 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 05
+  200420 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  200420 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200420 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200421 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200421 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200422 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200422 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200423 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.9) set to +0.1 for hr: 18
+  200423 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200423 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200424 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200424 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200425 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200425 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200426 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200426 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200427 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200427 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200428 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200428 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200429 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 03
+  200429 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  200429 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200429 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200430 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200430 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200501 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 03
+  200501 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.7) set to +0.1 for hr: 18
+  200501 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 19
+  200501 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200501 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200502 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 17
+  200502 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 17
+  200502 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200502 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200503 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200503 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200504 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  200504 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200504 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200505 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200505 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200506 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.0) set to +0.1 for hr: 18
+  200506 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200506 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200507 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.2) set to +0.1 for hr: 18
+  200507 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200507 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200508 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200508 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200509 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200509 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200510 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.9) set to +0.1 for hr: 18
+  200510 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200510 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200511 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.8) set to +0.1 for hr: 18
+  200511 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200511 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200512 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200512 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200513 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 07
+  200513 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.2) set to +0.1 for hr: 18
+  200513 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200513 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200514 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200514 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200515 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200515 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200516 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200516 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200517 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 18
+  200517 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200517 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200518 METPREP    I80  SUBST  : OS ref WSPD (  0.12) < MIN - reset to 0.28m/s for hour: 05
+  200518 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.2) set to +0.1 for hr: 18
+  200518 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200518 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200519 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 07
+  200519 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200519 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200520 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.2) set to +0.1 for hr: 18
+  200520 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200520 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200521 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 02
+  200521 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  200521 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200521 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200522 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200522 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200523 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200523 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200524 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  200524 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200524 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200525 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200525 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200526 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.2) set to +0.1 for hr: 18
+  200526 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200526 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200527 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 06
+  200527 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200527 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200528 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200528 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200529 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  200529 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200529 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200530 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  200530 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200530 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200531 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 02
+  200531 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 03
+  200531 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200531 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200601 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 02
+  200601 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 03
+  200601 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 04
+  200601 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200601 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200602 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.1) set to +0.1 for hr: 18
+  200602 METPREP    I80  SUBST  : OS ref WSPD (  0.03) < MIN - reset to 0.28m/s for hour: 22
+  200602 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200602 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200603 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200603 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200604 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200604 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200605 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  200605 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200605 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200606 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200606 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200607 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 18
+  200607 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200607 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200608 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200608 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200609 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 07
+  200609 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.9) set to +0.1 for hr: 18
+  200609 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200609 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200610 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200610 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200611 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200611 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200612 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200612 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200613 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200613 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200614 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200614 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200615 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200615 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200616 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200616 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200617 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 06
+  200617 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200617 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200618 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.6) set to +0.1 for hr: 18
+  200618 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200618 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200619 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200619 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200620 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200620 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200621 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 07
+  200621 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200621 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200622 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.6) set to +0.1 for hr: 17
+  200622 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200622 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200623 METPREP    I80  SUBST  : OS ref WSPD (  0.13) < MIN - reset to 0.28m/s for hour: 05
+  200623 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 07
+  200623 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  200623 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200623 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200624 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200624 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200625 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200625 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200626 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200626 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200627 METPREP    I80  SUBST  : OS ref WSPD (  0.06) < MIN - reset to 0.28m/s for hour: 06
+  200627 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200627 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200628 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200628 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200628 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200629 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200629 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200629 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200630 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 07
+  200630 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200630 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200701 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200701 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200702 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200702 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200703 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200703 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200704 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200704 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200705 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 22
+  200705 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200705 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200706 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200706 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200707 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200707 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200708 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200708 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200709 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200709 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200710 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.7) set to +0.1 for hr: 18
+  200710 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200710 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200711 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 01
+  200711 METPREP    I80  SUBST  : OS ref WSPD (  0.03) < MIN - reset to 0.28m/s for hour: 19
+  200711 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200711 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200712 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200712 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200713 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200713 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200714 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200714 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200715 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 02
+  200715 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200715 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200716 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200716 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200717 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200717 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200718 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200718 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200719 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.3) set to +0.1 for hr: 18
+  200719 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200719 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200720 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 02
+  200720 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200720 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200721 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 03
+  200721 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200721 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200721 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200722 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200722 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200723 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200723 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200724 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200724 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200725 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200725 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200726 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.5) set to +0.1 for hr: 18
+  200726 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200726 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200727 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200727 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200728 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200728 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200729 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200729 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200730 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200730 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200731 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  200731 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200731 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200801 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.6) set to +0.1 for hr: 18
+  200801 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200801 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200802 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.5) set to +0.1 for hr: 18
+  200802 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200802 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200803 METPREP    I80  SUBST  : OS ref WSPD (  0.12) < MIN - reset to 0.28m/s for hour: 07
+  200803 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200803 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200804 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  200804 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200804 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200805 METPREP    I80  SUBST  : OS ref WSPD (  0.07) < MIN - reset to 0.28m/s for hour: 07
+  200805 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.8) set to +0.1 for hr: 18
+  200805 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200805 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200806 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200806 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200807 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200807 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200808 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200808 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200809 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200809 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200810 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200810 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200811 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  200811 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200811 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200812 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 02
+  200812 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200812 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200813 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 18
+  200813 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200813 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200814 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200814 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200815 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 02
+  200815 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 07
+  200815 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 21
+  200815 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200815 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200816 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200816 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200817 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200817 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200818 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200818 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200819 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200819 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200820 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200820 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200821 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200821 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200822 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 07
+  200822 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200822 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200823 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200823 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200824 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.0) set to +0.1 for hr: 18
+  200824 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200824 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200825 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200825 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200826 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200826 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200827 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  200827 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200827 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200828 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 05
+  200828 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200828 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200829 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200829 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200830 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200830 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200831 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200831 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200901 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200901 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200902 METPREP    I80  SUBST  : OS ref WSPD (  0.14) < MIN - reset to 0.28m/s for hour: 06
+  200902 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -5.2) set to +0.1 for hr: 18
+  200902 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200902 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200903 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.9) set to +0.1 for hr: 18
+  200903 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200903 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200904 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200904 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200905 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.4) set to +0.1 for hr: 18
+  200905 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200905 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200906 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 02
+  200906 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200906 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200907 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 07
+  200907 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200907 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200907 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200908 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200908 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200909 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200909 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200910 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 07
+  200910 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200910 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200911 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 03
+  200911 METPREP    I80  SUBST  : OS ref WSPD (  0.20) < MIN - reset to 0.28m/s for hour: 07
+  200911 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200911 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200912 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200912 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200913 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.0) set to +0.1 for hr: 18
+  200913 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200913 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200914 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 07
+  200914 METPREP    I80  SUBST  : OS ref WSPD (  0.07) < MIN - reset to 0.28m/s for hour: 17
+  200914 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.8) set to +0.1 for hr: 18
+  200914 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200914 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200915 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 03
+  200915 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  200915 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200915 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200916 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.1) set to +0.1 for hr: 18
+  200916 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200916 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200917 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200917 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200918 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200918 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200919 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200919 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200920 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200920 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200921 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 07
+  200921 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200921 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200922 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.8) set to +0.1 for hr: 18
+  200922 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200922 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200923 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  200923 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200923 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200924 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.8) set to +0.1 for hr: 18
+  200924 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200924 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200925 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -4.6) set to +0.1 for hr: 18
+  200925 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200925 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200926 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.5) set to +0.1 for hr: 18
+  200926 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200926 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200927 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200927 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200928 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  200928 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200928 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200929 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200929 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  200930 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.7) set to +0.1 for hr: 18
+  200930 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  200930 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201001 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 04
+  201001 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.7) set to +0.1 for hr: 18
+  201001 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201001 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201002 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201002 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201003 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201003 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201004 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 01
+  201004 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201004 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201005 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 04
+  201005 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 06
+  201005 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201005 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201006 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.7) set to +0.1 for hr: 18
+  201006 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201006 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201007 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  201007 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201007 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201008 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.8) set to +0.1 for hr: 18
+  201008 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201008 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201009 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201009 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201010 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201010 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201011 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 02
+  201011 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.2) set to +0.1 for hr: 18
+  201011 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201011 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201012 METPREP    I80  SUBST  : OS ref WSPD (  0.17) < MIN - reset to 0.28m/s for hour: 07
+  201012 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.9) set to +0.1 for hr: 18
+  201012 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201012 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201013 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.6) set to +0.1 for hr: 18
+  201013 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201013 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201014 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201014 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201015 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  201015 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201015 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201016 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201016 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201017 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201017 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201018 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201018 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201019 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 06
+  201019 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201019 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201020 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.4) set to +0.1 for hr: 18
+  201020 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201020 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201021 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201021 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201022 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 06
+  201022 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.0) set to +0.1 for hr: 18
+  201022 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201022 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201023 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201023 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201024 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201024 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201025 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.0) set to +0.1 for hr: 18
+  201025 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201025 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201026 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201026 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201027 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201027 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201028 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 02
+  201028 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201028 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201029 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.2) set to +0.1 for hr: 18
+  201029 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201029 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201030 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201030 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201031 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201031 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201101 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.5) set to +0.1 for hr: 18
+  201101 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201101 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201102 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201102 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201103 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201103 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201104 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201104 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201105 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 05
+  201105 METPREP    I80  SUBST  : OS ref WSPD (  0.19) < MIN - reset to 0.28m/s for hour: 24
+  201105 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201105 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201106 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201106 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201107 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201107 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201108 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 04
+  201108 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  201108 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201108 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201109 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 05
+  201109 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.4) set to +0.1 for hr: 18
+  201109 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201109 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201110 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201110 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201111 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 02
+  201111 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 06
+  201111 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201111 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201112 METPREP    I80  SUBST  : OS ref WSPD (  0.16) < MIN - reset to 0.28m/s for hour: 01
+  201112 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 02
+  201112 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201112 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201113 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201113 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201114 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201114 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201115 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 02
+  201115 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201115 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201116 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 03
+  201116 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201116 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201117 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201117 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201118 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 18
+  201118 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201118 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201119 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201119 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201120 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  201120 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201120 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201121 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201121 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201122 METPREP    I80  SUBST  : OS ref WSPD (  0.26) < MIN - reset to 0.28m/s for hour: 02
+  201122 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201122 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201123 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201123 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201124 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.4) set to +0.1 for hr: 18
+  201124 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201124 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201125 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201125 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201126 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.0) set to +0.1 for hr: 18
+  201126 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201126 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201127 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201127 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201128 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201128 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201129 METPREP    I80  SUBST  : OS ref WSPD (  0.13) < MIN - reset to 0.28m/s for hour: 05
+  201129 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.9) set to +0.1 for hr: 18
+  201129 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201129 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201130 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201130 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201201 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.4) set to +0.1 for hr: 18
+  201201 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201201 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201202 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  201202 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201202 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201203 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  201203 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201203 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201204 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201204 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201205 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201205 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201206 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 04
+  201206 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -3.0) set to +0.1 for hr: 18
+  201206 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201206 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201207 METPREP    I80  SUBST  : OS ref WSPD (  0.22) < MIN - reset to 0.28m/s for hour: 17
+  201207 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201207 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201208 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.5) set to +0.1 for hr: 18
+  201208 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201208 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201209 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.1) set to +0.1 for hr: 18
+  201209 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201209 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201210 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201210 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201211 METPREP    I80  SUBST  : OS ref WSPD (  0.25) < MIN - reset to 0.28m/s for hour: 05
+  201211 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201211 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201212 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 07
+  201212 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.1) set to +0.1 for hr: 18
+  201212 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201212 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201213 METPREP    I80  SUBST  : OS ref WSPD (  0.08) < MIN - reset to 0.28m/s for hour: 07
+  201213 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201213 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201214 METPREP    I80  SUBST  : OS ref WSPD (  0.27) < MIN - reset to 0.28m/s for hour: 05
+  201214 METPREP    I80  SUBST  : OS ref WSPD (  0.21) < MIN - reset to 0.28m/s for hour: 06
+  201214 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.3) set to +0.1 for hr: 18
+  201214 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201214 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201215 METPREP    I80  SUBST  : OS ref WSPD (  0.15) < MIN - reset to 0.28m/s for hour: 07
+  201215 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.8) set to +0.1 for hr: 18
+  201215 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201215 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201216 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.9) set to +0.1 for hr: 18
+  201216 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201216 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201217 METPREP    I80  SUBST  : OS ref WSPD (  0.23) < MIN - reset to 0.28m/s for hour: 17
+  201217 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.5) set to +0.1 for hr: 18
+  201217 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201217 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201218 METPREP    I80  SUBST  : OS ref WSPD (  0.05) < MIN - reset to 0.28m/s for hour: 02
+  201218 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 03
+  201218 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -0.0) set to +0.1 for hr: 18
+  201218 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201218 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201219 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -2.2) set to +0.1 for hr: 18
+  201219 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201219 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201220 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.1) set to +0.1 for hr: 18
+  201220 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201220 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201221 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201221 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201222 METPREP    I80  SUBST  : OS ref WSPD (  0.28) < MIN - reset to 0.28m/s for hour: 24
+  201222 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201222 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201223 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.8) set to +0.1 for hr: 18
+  201223 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201223 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201224 METPREP    I80  SUBST  : OS ref WSPD (  0.24) < MIN - reset to 0.28m/s for hour: 07
+  201224 METPREP    I80  SUBST  : OS ref WSPD (  0.11) < MIN - reset to 0.28m/s for hour: 18
+  201224 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201224 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201225 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201225 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201226 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201226 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201227 METPREP    I77  MPPBL  : CBL HFLUX < 0 ( -1.3) set to +0.1 for hr: 18
+  201227 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201227 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201228 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201228 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201229 METPREP    I80  SUBST  : OS ref WSPD (  0.18) < MIN - reset to 0.28m/s for hour: 04
+  201229 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201229 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201230 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201230 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+  201231 METPREP    I84  MPPBL  : Upper air sounding selected for this day: 12 Z
+  201231 METPREP    I84  MPPBL  : UAID =   3 for HR:   7 LST
+     731 METPREP    I79  FETCH  : EOF reached on input data file after 000000
+         METPREP    W86  MPFIN  : Delta-T height range may not be appropriate for BULKRN method. DT01 heights (m):    2.00   18.75

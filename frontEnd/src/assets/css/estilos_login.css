@@ -1,0 +1,97 @@
+.bodylogin {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+}
+
+.contenedorlogin{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    padding: 3px;
+}
+.titulologin{
+    text-align: center;
+    color: #CC7A43;
+    font-size: 40px;
+}
+.inputlog{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgba(153, 153, 153, 0.863);
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #CC7A43;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #e09b6cec;
+}
+.plogin{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #CC7A43;
+    font-weight: 600;
+}
+.link:hover{
+     color: #e09b6cec;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+.botonesheader{
+    padding: 10px 15px;
+    background-color: #CC7A43;
+    color: white;
+    border-radius: 5px; /*bordes redondeados*/
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed;
+}
+
+.userIcon{
+    text-align: center;
+    align-items: center;
+    color: #CC7A43;
+}
+
+.groupbotonlog{
+    display: flex; /*Un objeto a continuacion del Otro*/
+    justify-content: space-evenly;  /*Espacio equitativo entre los objetos*/
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+
+.botonesheader:hover{
+    background: #e09b6cec;
+}
