@@ -1,0 +1,8 @@
+* AERMOD ( 19191): A Simple Example Problem for the AERMOD Model with PRIME                 09/23/22
+* AERMET ( 21112):                                                                          09:18:32
+* MODELING OPTIONS USED:   NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+*         MAXI-FILE FOR  1-HR VALUES >= A THRESHOLD OF    50.00    
+*         FOR SOURCE GROUP: POL1    
+*         FORMAT: (1X,I3,1X,A8,1X,I8.8,2(1X,F13.5),3(1X,F7.2),1X,F13.5)
+*AVE   GRP     DATE           X             Y        ZELEV   ZHILL   ZFLAG  AVERAGE CONC
+*___ ________ ________  ____________  ____________  ______  ______  ______  ____________

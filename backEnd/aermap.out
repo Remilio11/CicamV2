@@ -1,0 +1,206 @@
+** AERMAP - VERSION 18081                                              09/22/22
+**                                                                     14:52:05
+
+CO STARTING
+   TITLEONE  AERMAP
+
+   TERRHGTS  EXTRACT
+
+   DATATYPE  NED     FILLGAPS
+   DATAFILE  a1.tif
+   DATAFILE  a2.tif
+
+** DOMAINXY  Xdmin Ydmin Zonmin Xdmax Ydmax Zonmax
+
+
+   ANCHORXY  666445 9840187 666445 9840187 -17 3
+
+   RUNORNOT  RUN
+
+   DEBUGOPT  ALL
+
+CO FINISHED
+
+SO STARTING
+   LOCATION  STACK1 POINT 695445 9854187 935.35
+SO FINISHED
+
+RE STARTING
+   GRIDCART CART1 STA
+                    XYINC 666194 20 3000.0 9825774 20 3000.0
+   GRIDCART CART1 END
+RE FINISHED
+
+OU STARTING
+   RECEPTOR  RECEPT.ROU
+OU FINISHED
+
+ Exiting NEDCHK
+  
+ Finished Reading Input NED Data
+  
+ Exiting CHKADJ
+ Exiting RECCNV
+ Exiting SRCCNV
+ Exiting DEMREC
+ Exiting DEMSRC
+ *** AERMAP - VERSION 18081 ***    ***  AERMAP                                                              ***        09/22/22
+                                   ***                                                                      ***        14:52:05
+
+
+  *** Message Summary For AERMAP Setup ***
+
+ --------- Summary of Total Messages --------
+  
+ A Total of          0 Fatal Error Message(s)
+ A Total of          7 Warning Message(s)
+ A Total of          0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ OU W191      33 OUCARD:No SOURLOC keyword spec with EXTRACT option, NSRC=            1
+ OU W450      33 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W470      33 NEDCHK:Unexpected datum for NED file encountered:                WGS84
+ OU W473      33 NEDCHK:Default elevation units of METERS used; NED file:             1
+ OU W450      33 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W470      33 NEDCHK:Unexpected datum for NED file encountered:                WGS84
+ OU W473      33 NEDCHK:Default elevation units of METERS used; NED file:             2
+
+ ***********************************
+ *** SETUP Finishes Successfully ***
+ ***********************************
+
+ *** AERMAP - VERSION 18081 ***    ***  AERMAP                                                              ***        09/22/22
+                                   ***                                                                      ***        14:52:05
+
+
+                                            ***     AERMAP SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+  
+ **This Run Includes:       2  NED File(s)
+  
+ **This Run Includes:     400  Receptor(s); and        1  Source(s)
+  
+ NOTE:
+ **This run includes:      25  Receptor(s); and        0  Source(s) located in GAPS INSIDE NED file(s);
+     with a total of:       0  Receptor(s); and        0  Source(s) assigned elevations based on subsequent file(s).
+ **This run includes:      25  Receptor(s); and        0  Source(s) that have been assigned missing elevations (-9999.0)!
+ **These gaps may be due to NAD conversions or use of non-standard NED files.
+   Consider using standard NED files with consistent NAD values to avoid gaps between or within files.
+  
+ **The Input Receptors and Sources Were Assigned a NADA Value of  3:  World Geodetic System of 1984           
+
+ **The Input Receptors and Sources Are Offset:        0.00 meters East;         0.00 meters North
+      from the User-specified Anchor Point at:   666445.00 meters East;   9840187.00 meters North;  Zone -17
+  
+ **Terrain heights were EXTRACTed from NED data
+  
+ **The Following Debug Output Files Have Been Automatically Generated:
+
+   DOMDETAIL.OUT - Details of User-specified Domain and Relation to NED Files
+   MAPDETAIL.OUT - Details Regarding Input NED Files
+   MAPPARAMS.OUT - Summary of NED File Parameters and NED File Adjacency
+  
+ **The Following User-specified Debug Output Files Have Been Generated:
+
+   Critical Hill Height Calculations:  CALCHCDET.OUT
+  
+   Receptor NAD Conversion Results:    RECDETAIL.OUT
+   Receptor vs NED File Locations:     RECNDEM.OUT
+   Receptor Elevation Calculations:    RECELV.OUT
+  
+   Source NAD Conversion Results:      SRCDETAIL.OUT
+   Source vs NED File Locations:       SRCNDEM.OUT
+   Source Elevation Calculations:      SRCELV.OUT
+  
+ *** AERMAP - VERSION 18081 ***    ***  AERMAP                                                              ***        09/22/22
+                                   ***                                                                      ***        14:52:05
+
+ *** Message Summary For AERMAP Execution ***
+
+ --------- Summary of Total Messages --------
+  
+ A Total of          0 Fatal Error Message(s)
+ A Total of         64 Warning Message(s)
+ A Total of          0 Informational Message(s)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ OU W191      33 OUCARD:No SOURLOC keyword spec with EXTRACT option, NSRC=            1
+ OU W450      33 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W470      33 NEDCHK:Unexpected datum for NED file encountered:                WGS84
+ OU W473      33 NEDCHK:Default elevation units of METERS used; NED file:             1
+ OU W450      33 NEDCHK:Parameter not found in TIFF file.  TiffTag:                 274
+ OU W470      33 NEDCHK:Unexpected datum for NED file encountered:                WGS84
+ OU W473      33 NEDCHK:Default elevation units of METERS used; NED file:             2
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           10
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           10
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           14
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           14
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           16
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           16
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=           32
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           37
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           37
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=           54
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=           70
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           76
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           76
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           77
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           77
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=           78
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=           78
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          113
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          113
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=          114
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=          115
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          117
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          117
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          136
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          136
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          153
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          153
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          176
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          176
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          187
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          187
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          197
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          197
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          217
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          217
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          255
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          255
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          256
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          256
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          295
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          295
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          317
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          317
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          318
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          318
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=          335
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          336
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          336
+ OU W415      33 RECELV:Node Elev Miss (-9999) Used Ave of Adj Nodes:IREC=          340
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          355
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          355
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          358
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          358
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          359
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          359
+ OU W416      33 RECELV:Node Elev Miss (-9999);  No Adj Nodes Avail: IREC=          378
+ OU W410      33   MAIN:Receptor Elevation is Missing (-9999.0),     IREC=          378
+
+    ************************************
+    *** AERMAP Finishes Successfully ***
+    ************************************
+

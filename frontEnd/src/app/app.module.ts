@@ -28,6 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UploadfilesService } from './services/uploadfiles.service';
 import { ConfigService } from './pages/config/conifigAermet.service';
 import { AermapService } from './services/aermap.service';
+import { AermodService } from './services/aermod.service';
 
 
 @NgModule({
@@ -53,7 +54,7 @@ import { AermapService } from './services/aermap.service';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [UploadfilesService, ConfigService, AermapService],
+  providers: [UploadfilesService, ConfigService, AermapService, AermodService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

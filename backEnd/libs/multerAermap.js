@@ -2,11 +2,11 @@ const multer = require('multer');
 const path = require('path');
 
 const whitelist = [
-  'application/octet-stream',
+  'image/tiff',
 ]
 
 const storage = multer.diskStorage({
-    destination: path.join(__dirname, '../performance/aermap'),
+    destination: path.join(__dirname, '../'),
     filename: (req, file, cb) => {
         cb(null, file.originalname);
     }

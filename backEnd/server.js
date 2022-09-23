@@ -36,6 +36,7 @@ app.use(express.json());
 app.use('/api/registro', require('./routes/persona'));
 app.use('/api/aermet', require('./routes/aermetRouter'));
 app.use('/api/aermap', require('./routes/aermapRouter'));
+app.use('/api/aermod', require('./routes/aermodRouter'));
 
 //Endpoint to Upload files
 app.post('/upload', upload.single('myFile') ,(req, res) => {

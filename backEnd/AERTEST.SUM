@@ -1,0 +1,330 @@
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   1
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                                            ***     MODEL SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ **Model Is Setup For Calculation of Average CONCentration Values.
+  
+   --  DEPOSITION LOGIC  --
+ **NO GAS DEPOSITION Data Provided.
+ **NO PARTICLE DEPOSITION Data Provided.
+ **Model Uses NO DRY DEPLETION.  DRYDPLT  =  F
+ **Model Uses NO WET DEPLETION.  WETDPLT  =  F
+  
+ **Model Uses RURAL Dispersion Only.
+  
+ **Model Allows User-Specified Options:
+         1. Stack-tip Downwash.
+         2. Model Assumes Receptors on FLAT Terrain.
+         3. Use Calms Processing Routine.
+         4. Use Missing Data Processing Routine.
+         5. No Exponential Decay.
+  
+ **Other Options Specified:
+         ADJ_U*   - Use ADJ_U* option for SBL in AERMET
+         MMIFData - Use BETA option for MMIF met data inputs
+                    MMIF VERSION 3.4 2018-07-18
+         BULKRN   - Use BULKRN Delta-T and SolarRad option for SBL with MMIF
+         TEMP_Sub - Meteorological data includes TEMP substitutions
+  
+ **Model Assumes No FLAGPOLE Receptor Heights.
+  
+ **The User Specified a Pollutant Type of:  SO2     
+
+ **Note that special processing requirements apply for the 1-hour SO2 NAAQS - check available guidance.
+   Model will process user-specified ranks of daily maximum 1-hour values averaged across the number of years modeled.
+  
+ **Model Calculates  1 Short Term Average(s) of:   1-HR
+     and Calculates PERIOD Averages
+  
+ **This Run Includes:      1 Source(s);       1 Source Group(s); and     400 Receptor(s)
+
+                with:      1 POINT(s), including
+                           0 POINTCAP(s) and      0 POINTHOR(s)
+                 and:      0 VOLUME source(s)
+                 and:      0 AREA type source(s)
+                 and:      0 LINE source(s)
+                 and:      0 RLINE/RLINEXT source(s)
+                 and:      0 OPENPIT source(s)
+                 and:      0 BUOYANT LINE source(s) with      0 line(s)
+
+  
+ **Model Set To Continue RUNning After the Setup Testing.
+
+ **The AERMET Input Meteorological Data Version Date:  21112
+  
+ **Output Options Selected:
+          Model Outputs Tables of PERIOD Averages by Receptor
+          Model Outputs Tables of Highest Short Term Values by Receptor (RECTABLE Keyword)
+          Model Outputs Tables of Overall Maximum Short Term Values (MAXTABLE Keyword)
+          Model Outputs External File(s) of Threshold Violations (MAXIFILE Keyword)
+          Model Outputs External File(s) of High Values for Plotting (PLOTFILE Keyword)
+          Model Outputs External File(s) of Ranked Values (RANKFILE Keyword)
+          Model Outputs Separate Summary File of High Ranked Values (SUMMFILE Keyword)
+  
+ **NOTE:  The Following Flags May Appear Following CONC Values:  c for Calm Hours
+                                                                 m for Missing Hours
+                                                                 b for Both Calm and Missing Hours
+  
+ **Misc. Inputs:  Base Elev. for Pot. Temp. Profile (m MSL) =     0.00 ;  Decay Coef. =    0.000     ;  Rot. Angle =     0.0
+                  Emission Units = GRAMS/SEC                                ;  Emission Rate Unit Factor =   0.10000E+07
+                  Output Units   = MICROGRAMS/M**3                         
+  
+ **Approximate Storage Requirements of Model =      3.6 MB of RAM.
+  
+ **Input Runstream File:          aermod.inp                                                                                      
+ **Output Print File:             aermod.out                                                                                      
+
+ **Detailed Error/Message File:   ERRORS.OUT                                                                                      
+ **File Created for Event Model:  aertest_evt.inp                                                                                 
+ **File for Summary of Results:   AERTEST.SUM                                                                                     
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   2
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                                            *** METEOROLOGICAL DAYS SELECTED FOR PROCESSING ***
+                                                               (1=YES; 0=NO)
+
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1
+
+                NOTE:  METEOROLOGICAL DATA ACTUALLY PROCESSED WILL ALSO DEPEND ON WHAT IS INCLUDED IN THE DATA FILE.
+
+
+
+                                  *** UPPER BOUND OF FIRST THROUGH FIFTH WIND SPEED CATEGORIES ***
+                                                            (METERS/SEC)
+
+                                                 1.54,   3.09,   5.14,   8.23,  10.80,
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   3
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                                    *** UP TO THE FIRST 24 HOURS OF METEOROLOGICAL DATA ***
+
+   Surface file:   MET2119246_AERMET_2019-2020.sfc                                                    Met Version:  21112
+   Profile file:   MET2119246_AERMET_2019-2020.pfl                                                 
+   Surface format: FREE                                                                                                     
+   Profile format: FREE                                                                                                     
+   Surface station no.:    99999                  Upper air station no.:    99999
+                  Name: UNKNOWN                                    Name: UNKNOWN                                 
+                  Year:   2019                                     Year:   2019
+
+ First 24 hours of scalar data
+ YR MO DY JDY HR     H0     U*     W*  DT/DZ ZICNV ZIMCH  M-O LEN    Z0  BOWEN ALBEDO  REF WS   WD     HT  REF TA     HT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 19 01 01   1 01    0.0  0.303 -9.000 -9.000 -999.  180.   8888.0  0.50   0.18   1.00    2.27   10.   10.0  293.9    2.0
+ 19 01 01   1 02    0.0  0.217 -9.000 -9.000 -999.  172.   8888.0  0.50   0.18   1.00    1.62  350.   10.0  293.7    2.0
+ 19 01 01   1 03    0.0  0.348 -9.000 -9.000 -999.  182.   8888.0  0.50   0.18   1.00    2.60    2.   10.0  293.6    2.0
+ 19 01 01   1 04    0.0  0.214 -9.000 -9.000 -999.  133.   8888.0  0.50   0.18   1.00    1.61  356.   10.0  293.5    2.0
+ 19 01 01   1 05   -0.1  0.232 -9.000 -9.000 -999.  108.   8888.0  0.50   0.18   1.00    1.57    7.   10.0  293.5    2.0
+ 19 01 01   1 06   -0.3  0.227 -9.000 -9.000 -999.  112.   3530.2  0.50   0.18   1.00    1.54   27.   10.0  293.4    2.0
+ 19 01 01   1 07    0.0  0.040 -9.000 -9.000 -999.   97.   8888.0  0.50   0.18   0.59    0.30   37.   10.0  293.9    2.0
+ 19 01 01   1 08   13.5  0.106  0.539  0.005  382.  382.     -7.4  0.50   0.18   0.25    0.51  322.   10.0  294.7    2.0
+ 19 01 01   1 09   24.8  0.244  0.656  0.005  373.  373.    -48.3  0.50   0.18   0.17    1.56  292.   10.0  295.1    2.0
+ 19 01 01   1 10    7.6  0.350  0.382  0.005  242.  242.   -465.9  0.50   0.18   0.15    2.56  279.   10.0  294.8    2.0
+ 19 01 01   1 11   79.9  0.297  1.173  0.006  664.  664.    -26.8  0.50   0.18   0.14    1.77  280.   10.0  296.3    2.0
+ 19 01 01   1 12   80.5  0.375  1.268  0.006  832.  832.    -53.8  0.50   0.18   0.14    2.43  302.   10.0  297.7    2.0
+ 19 01 01   1 13   84.1  0.478  1.254  0.006  771.  771.   -106.8  0.50   0.18   0.14    3.28  288.   10.0  298.0    2.0
+ 19 01 01   1 14   25.2  0.352  0.788  0.005  638.  638.   -142.6  0.50   0.18   0.14    2.46  275.   10.0  297.5    2.0
+ 19 01 01   1 15    7.6  0.255  0.464  0.005  433.  433.   -179.7  0.50   0.18   0.14    1.80  233.   10.0  297.0    2.0
+ 19 01 01   1 16   18.3  0.150  0.682  0.005  567.  567.    -15.0  0.50   0.18   0.15    0.82  301.   10.0  297.7    2.0
+ 19 01 01   1 17   13.8  0.178  0.610  0.005  538.  538.    -33.8  0.50   0.18   0.19    1.10  293.   10.0  298.0    2.0
+ 19 01 01   1 18    0.7  0.101  0.177  0.005  272.  272.   -126.7  0.50   0.18   0.32    0.70  321.   10.0  297.5    2.0
+ 19 01 01   1 19   -4.3  0.072 -9.000 -9.000 -999.   36.      7.3  0.50   0.18   1.00    1.03  284.   10.0  294.7    2.0
+ 19 01 01   1 20  -18.3  0.202 -9.000 -9.000 -999.   36.     37.0  0.50   0.18   1.00    2.05  172.   10.0  294.3    2.0
+ 19 01 01   1 21    0.0  0.173 -9.000 -9.000 -999.  156.   8888.0  0.50   0.18   1.00    1.30  183.   10.0  294.9    2.0
+ 19 01 01   1 22    0.0  0.155 -9.000 -9.000 -999.  135.   8888.0  0.50   0.18   1.00    1.16  250.   10.0  294.6    2.0
+ 19 01 01   1 23    0.0  0.095 -9.000 -9.000 -999.   88.   8888.0  0.50   0.18   1.00    0.71  254.   10.0  294.6    2.0
+ 19 01 01   1 24    0.0  0.225 -9.000 -9.000 -999.  195.   8888.0  0.50   0.18   1.00    1.69  209.   10.0  294.2    2.0
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   4
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+
+ First hour of profile data
+ YR MO DY HR HEIGHT F  WDIR    WSPD AMB_TMP sigmaA  sigmaW  sigmaV
+ 19 01 01 01    2.0 0 -999.  -99.00   293.9   99.0  -99.00  -99.00
+ 19 01 01 01   10.0 0   10.    2.27  -999.0   99.0  -99.00  -99.00
+ 19 01 01 01   18.8 0    9.    2.80   293.7   99.0  -99.00  -99.00
+ 19 01 01 01   50.0 0    4.    3.87   293.5   99.0  -99.00  -99.00
+ 19 01 01 01   75.0 0    2.    4.36   293.4   99.0  -99.00  -99.00
+ 19 01 01 01  100.0 0  359.    4.73   293.3   99.0  -99.00  -99.00
+ 19 01 01 01  125.0 0  358.    4.94   293.2   99.0  -99.00  -99.00
+ 19 01 01 01  150.0 0  358.    5.07   293.1   99.0  -99.00  -99.00
+ 19 01 01 01  175.0 0  357.    5.15   293.0   99.0  -99.00  -99.00
+ 19 01 01 01  206.2 0  357.    5.28   292.8   99.0  -99.00  -99.00
+ 19 01 01 01  250.0 0  357.    5.36   292.7   99.0  -99.00  -99.00
+ 19 01 01 01  300.0 0  357.    5.37   292.4   99.0  -99.00  -99.00
+ 19 01 01 01  350.0 0  358.    5.36   292.2   99.0  -99.00  -99.00
+ 19 01 01 01  400.0 0  358.    5.32   292.0   99.0  -99.00  -99.00
+ 19 01 01 01  450.0 0  359.    5.27   291.8   99.0  -99.00  -99.00
+ 19 01 01 01  512.5 0    0.    5.11   291.4   99.0  -99.00  -99.00
+ 19 01 01 01  600.0 0    3.    4.82   291.0   99.0  -99.00  -99.00
+ 19 01 01 01  700.0 0    6.    4.47   290.5   99.0  -99.00  -99.00
+ 19 01 01 01  800.0 0   10.    4.11   290.0   99.0  -99.00  -99.00
+ 19 01 01 01  900.0 0   18.    3.37   289.4   99.0  -99.00  -99.00
+ 19 01 01 01 1100.0 0   45.    1.92   289.2   99.0  -99.00  -99.00
+ 19 01 01 01 1500.0 0   83.    1.22   287.4   99.0  -99.00  -99.00
+ 19 01 01 01 2000.0 0  133.    2.17   285.8   99.0  -99.00  -99.00
+ 19 01 01 01 2500.0 0  113.    3.67   283.5   99.0  -99.00  -99.00
+ 19 01 01 01 3000.0 0  121.    3.80   280.7   99.0  -99.00  -99.00
+ 19 01 01 01 3500.0 0  139.    1.00   277.8   99.0  -99.00  -99.00
+ 19 01 01 01 4000.0 0  330.    1.76   275.1   99.0  -99.00  -99.00
+ 19 01 01 01 4500.0 0  346.    3.49   272.2   99.0  -99.00  -99.00
+ 19 01 01 01 5000.0 1  330.    4.59   269.4   99.0  -99.00  -99.00
+
+ F indicates top of profile (=1) or below (=0)
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   5
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                                        *** THE SUMMARY OF MAXIMUM PERIOD ( 17544 HRS) RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+POL1      1ST HIGHEST VALUE IS       0.01176 AT (  690194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          2ND HIGHEST VALUE IS       0.01126 AT (  690194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          3RD HIGHEST VALUE IS       0.01112 AT (  693194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          4TH HIGHEST VALUE IS       0.01069 AT (  687194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          5TH HIGHEST VALUE IS       0.01061 AT (  693194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          6TH HIGHEST VALUE IS       0.01034 AT (  687194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          7TH HIGHEST VALUE IS       0.00947 AT (  684194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          8TH HIGHEST VALUE IS       0.00922 AT (  684194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          9TH HIGHEST VALUE IS       0.00917 AT (  696194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+         10TH HIGHEST VALUE IS       0.00884 AT (  696194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   6
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                      *** THE SUMMARY OF MAXIMUM   1ST-HIGHEST MAX DAILY  1-HR RESULTS AVERAGED OVER   2 YEARS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+POL1      1ST HIGHEST VALUE IS       0.27110 AT (  696194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          2ND HIGHEST VALUE IS       0.24665 AT (  696194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          3RD HIGHEST VALUE IS       0.18316 AT (  693194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          4TH HIGHEST VALUE IS       0.17770 AT (  693194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          5TH HIGHEST VALUE IS       0.14118 AT (  699194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          6TH HIGHEST VALUE IS       0.13992 AT (  699194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          7TH HIGHEST VALUE IS       0.13262 AT (  696194.00,  9858774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          8TH HIGHEST VALUE IS       0.13256 AT (  696194.00,  9849774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          9TH HIGHEST VALUE IS       0.13212 AT (  693194.00,  9849774.00,     0.00,     0.00,    0.00)  GC  CART1   
+         10TH HIGHEST VALUE IS       0.13161 AT (  693194.00,  9858774.00,     0.00,     0.00,    0.00)  GC  CART1   
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   7
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                      *** THE SUMMARY OF MAXIMUM   2ND-HIGHEST MAX DAILY  1-HR RESULTS AVERAGED OVER   2 YEARS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+POL1      1ST HIGHEST VALUE IS       0.24591 AT (  696194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          2ND HIGHEST VALUE IS       0.22597 AT (  696194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          3RD HIGHEST VALUE IS       0.16748 AT (  693194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          4TH HIGHEST VALUE IS       0.16379 AT (  693194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          5TH HIGHEST VALUE IS       0.13264 AT (  699194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          6TH HIGHEST VALUE IS       0.13102 AT (  699194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          7TH HIGHEST VALUE IS       0.12002 AT (  696194.00,  9849774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          8TH HIGHEST VALUE IS       0.11511 AT (  696194.00,  9858774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          9TH HIGHEST VALUE IS       0.10652 AT (  693194.00,  9849774.00,     0.00,     0.00,    0.00)  GC  CART1   
+         10TH HIGHEST VALUE IS       0.10521 AT (  690194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   8
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+                      *** THE SUMMARY OF MAXIMUM   3RD-HIGHEST MAX DAILY  1-HR RESULTS AVERAGED OVER   2 YEARS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+POL1      1ST HIGHEST VALUE IS       0.22572 AT (  696194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          2ND HIGHEST VALUE IS       0.21381 AT (  696194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          3RD HIGHEST VALUE IS       0.16348 AT (  693194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          4TH HIGHEST VALUE IS       0.15897 AT (  693194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          5TH HIGHEST VALUE IS       0.12504 AT (  699194.00,  9852774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          6TH HIGHEST VALUE IS       0.12324 AT (  699194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          7TH HIGHEST VALUE IS       0.11739 AT (  696194.00,  9849774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          8TH HIGHEST VALUE IS       0.11321 AT (  696194.00,  9858774.00,     0.00,     0.00,    0.00)  GC  CART1   
+          9TH HIGHEST VALUE IS       0.10600 AT (  693194.00,  9849774.00,     0.00,     0.00,    0.00)  GC  CART1   
+         10TH HIGHEST VALUE IS       0.10443 AT (  690194.00,  9855774.00,     0.00,     0.00,    0.00)  GC  CART1   
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** A Simple Example Problem for the AERMOD Model with PRIME             ***        09/23/22
+ *** AERMET - VERSION  21112 ***   ***                                                                      ***        09:18:32
+                                                                                                                       PAGE   9
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL  ADJ_U*  MMIF_Data
+
+ *** Message Summary : AERMOD Model Execution ***
+
+  --------- Summary of Total Messages --------
+  
+ A Total of            0 Fatal Error Message(s)
+ A Total of            8 Warning Message(s)
+ A Total of            0 Informational Message(s)
+
+ A Total of        17544 Hours Were Processed
+
+ A Total of            0 Calm Hours Identified
+
+ A Total of            0 Missing Hours Identified (  0.00 Percent)
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ CO W361      15       COCARD: Multiyear PERIOD/ANNUAL values for NO2/SO2 require MULTYEAR Opt
+ SO W320      23        PPARM: Input Parameter May Be Out-of-Range for Parameter            VS
+ RE W213     179       RECART: ELEV Input Inconsistent With Option: Input Ignored        CART1
+ ME W187      40       MEOPEN: ADJ_U* Option for Stable Low Winds used in AERMET              
+ ME W182      40       MEOPEN: MMIF-generated meteorological inputs were used                 
+ ME W181      40       MEOPEN: BULKRN Delta-T & SolarRad option for SBL was used     with MMIF
+ ME W531      40       MEOPEN: CAUTION! Met Station ID Missing from SURFFILE for      SURFDATA
+ MX W394       1       METEXT: Met data may be from outdated version of AERMET:     No NAD/ADJ

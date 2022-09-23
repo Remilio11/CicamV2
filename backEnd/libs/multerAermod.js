@@ -6,7 +6,7 @@ const whitelist = [
 ]
 
 const storage = multer.diskStorage({
-    destination: path.join(__dirname, '../performance/aermod'),
+    destination: path.join(__dirname, '../'),
     filename: (req, file, cb) => {
         cb(null, file.originalname);
     }
