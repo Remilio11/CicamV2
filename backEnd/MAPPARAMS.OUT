@@ -1,0 +1,147 @@
+** AERMAP - VERSION 18081                                              09/22/22
+**                                                                     14:52:05
+
+  
+ MAP PARAMETERS
+
+ TYPDAT:  NED 
+
+ From CNRCNV:
+
+ NED File #:         1
+ NED File Name: a1.tif
+
+ Horizontal Datum: World Geodetic System of 1984           
+
+ Corner Coordinates of NED Data:
+
+ Decimal Degrees (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    -79.000000    -79.000000    -78.000000    -78.000000
+   Lat:     -2.000000     -1.000000     -1.000000     -2.000000
+
+ Arc-seconds (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:   -284400.000   -284400.000   -280800.000   -280800.000
+   Lat:     -7200.000     -3600.000     -3600.000     -7200.000
+
+ Meters:
+                 SW Corner     NW Corner     NE Corner     SE Corner
+   Easting:     722460.637    722561.736    833927.937    833776.092
+   Northing:   9778803.461   9889402.027   9889317.162   9778633.834
+   UTM Zone:  -17 based on SW corner
+
+ NED File #:         2
+ NED File Name: a2.tif
+
+ Horizontal Datum: World Geodetic System of 1984           
+
+ Corner Coordinates of NED Data:
+
+ Decimal Degrees (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:    -80.000000    -80.000000    -79.000000    -79.000000
+   Lat:     -2.000000     -1.000000     -1.000000     -2.000000
+
+ Arc-seconds (negative for West longitude):
+            SW Corner     NW Corner     NE Corner     SE Corner
+   Lon:   -288000.000   -288000.000   -284400.000   -284400.000
+   Lat:     -7200.000     -3600.000     -3600.000     -7200.000
+
+ Meters:
+                 SW Corner     NW Corner     NE Corner     SE Corner
+   Easting:     611213.301    611263.812    722561.736    722460.637
+   Northing:   9778905.133   9889452.894   9889402.027   9778803.461
+   UTM Zone:  -17 based on SW corner
+  
+
+ From CHKADJ      
+
+ NED File #:      1
+ NED:a1.tif                               <-- Raw header data segment
+ NED:a1.tif                               <-- Refined header data segment
+   DEM Level Code:    NED 
+   Planimetric Ref: Geographic Coordinates   
+     North-South Node separation:   1.0000  arc-seconds
+     East-West Node separation:     1.0000  arc-seconds
+   UTM/State Zone # -17
+   Horizontal Datum: World Geodetic System of 1984           
+   Num. of Profiles:  3601
+   SW Corner Lat/Lon (deg.):       -2.00000     -79.00000
+   SW Corner Lat/Lon (sec.):      -7200.000   -284400.000
+   Latitude Range =  1.0000 Deg.;  Longitude Range =  1.0000 Deg.
+   Writing corner coords; UTM then Dec.Deg (negative for West longitude):
+     Southwest Corner        Northwest Corner        Northeast Corner        Southeast Corner
+     Easting    Northing     Easting    Northing     Easting    Northing     Easting    Northing 
+     722460.64  9778803.46   722561.74  9889402.03   833927.94  9889317.16   833776.09  9778633.83
+     Latitude   Longitude    Latitude   Longitude    Latitude   Longitude    Latitude   Longitude
+     -2.0000    -79.0000     -1.0000    -79.0000     -1.0000    -78.0000     -2.0000    -78.0000
+
+  
+
+ NED File #:      2
+ NED:a2.tif                               <-- Raw header data segment
+ NED:a2.tif                               <-- Refined header data segment
+   DEM Level Code:    NED 
+   Planimetric Ref: Geographic Coordinates   
+     North-South Node separation:   1.0000  arc-seconds
+     East-West Node separation:     1.0000  arc-seconds
+   UTM/State Zone # -17
+   Horizontal Datum: World Geodetic System of 1984           
+   Num. of Profiles:  3601
+   SW Corner Lat/Lon (deg.):       -2.00000     -80.00000
+   SW Corner Lat/Lon (sec.):      -7200.000   -288000.000
+   Latitude Range =  1.0000 Deg.;  Longitude Range =  1.0000 Deg.
+   Writing corner coords; UTM then Dec.Deg (negative for West longitude):
+     Southwest Corner        Northwest Corner        Northeast Corner        Southeast Corner
+     Easting    Northing     Easting    Northing     Easting    Northing     Easting    Northing 
+     611213.30  9778905.13   611263.81  9889452.89   722561.74  9889402.03   722460.64  9778803.46
+     Latitude   Longitude    Latitude   Longitude    Latitude   Longitude    Latitude   Longitude
+     -2.0000    -80.0000     -1.0000    -80.0000     -1.0000    -79.0000     -2.0000    -79.0000
+
+  
+
+
+MAP ADJACENCY (Based on +/- 45 arc-seconds)
+
+ No. Base Map Name               Adjacent map names and relative geographic location to Base Map.
+                                 NOTE: Adjacency for NED files, Mixed DEMs, non-standard DEMs, 
+                                       and AK DEMs may not be exact.
+
+  1  NED:a1.tif                  NW:    No Map Present            N:    No Map Present           NE:    No Map Present         
+                                  W: NED:a2.tif                   C: NED:a1.tif                   E:    No Map Present         
+                                 SW:    No Map Present            S:    No Map Present           SE:    No Map Present         
+
+  2  NED:a2.tif                  NW:    No Map Present            N:    No Map Present           NE:    No Map Present         
+                                  W:    No Map Present            C: NED:a2.tif                   E: NED:a1.tif                
+                                 SW:    No Map Present            S:    No Map Present           SE:    No Map Present         
+
+
+
+MAPNAME ARRAY (Based on +/- 0.03 degrees)
+
+  Mapnames are laid out in relative geographical positions.
+  "Grid" resolution is based on Lat/Lon extent of first file.
+  Relative positions are based on SE corner coordinates relative to full grid of maps.
+  Look for "No Map Present" within the field of interest.
+  This may indicate missing files or files with errant data in their header records.
+  NOTE: Adjacency for NED files, Mixed DEMs, non-standard DEMs, and AK DEMs may not be exact.
+        Higher resolution maps may overwrite lower resolution maps that overlap.
+
+ NED:a2.tif                  NED:a1.tif                
+  
+
+
+ From INITER_NED:
+
+ MIN and MAX Elevations for NED files:
+
+ NED File #:      1
+ NED:a1.tif                              
+   Min. Elevation:  -9999.0 meters
+   Max. Elevation:   6261.0 meters
+
+ NED File #:      2
+ NED:a2.tif                              
+   Min. Elevation:  -9999.0 meters
+   Max. Elevation:   4143.0 meters

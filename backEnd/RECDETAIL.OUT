@@ -1,0 +1,11 @@
+** AERMAP - VERSION 18081                                              09/22/22
+**                                                                     14:52:05
+
+ 
+ Processing Receptor Location Data in RECCNV:
+   Determining North American Datum (NAD) shift values in arc-seconds.
+   Total shift (meters) includes both datum shift and projection shift
+   for Lat/Lon to UTM coordinates.
+ 
+   No NAD conversions required. All files are consistent with NADA =   3
+

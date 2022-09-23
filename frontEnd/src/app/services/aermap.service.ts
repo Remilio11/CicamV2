@@ -11,8 +11,12 @@ export class AermapService {
 
   configUrl = 'http://localhost:3000/api';
 
-  sendAermapData(body: ICreateAermap) {
-    return this.http.post<Blob>(`${this.configUrl}/aermap`, body, {
+  sendAermapData(body: ICreateAermap, file1: File, file2: File) {
+    const formData = new FormData();
+    formData.append('files', file1);
+    formData.append('files', file2);
+    formData.append("data", JSON.stringify(body));
+    return this.http.post<Blob>(`${this.configUrl}/aermap`, formData, {
         headers: new HttpHeaders({
             'Accept':'application/octet-stream'
          }),

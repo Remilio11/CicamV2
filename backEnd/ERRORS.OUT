@@ -1,0 +1,21 @@
+  
+    ************ Error Message List *************
+  
+    PW     --- Pathway                           
+    Code   --- Error Type + Error Code           
+    L#     --- The Line Number Where Error Occurs
+    ModNam --- Module Name In Which Error Occurs 
+    Hints  --- Hints For The Possible Solution   
+    *********************************************
+  
+PW CODE    L#      MODNAM                       ERROR MESSAGES                      HINTS
+-- ---- ------- ------------- -------------------------------------------------- ------------
+  
+CO W361      15       COCARD: Multiyear PERIOD/ANNUAL values for NO2/SO2 require MULTYEAR Opt
+SO W320      23        PPARM: Input Parameter May Be Out-of-Range for Parameter            VS
+RE W213     179       RECART: ELEV Input Inconsistent With Option: Input Ignored        CART1
+ME W187      40       MEOPEN: ADJ_U* Option for Stable Low Winds used in AERMET              
+ME W182      40       MEOPEN: MMIF-generated meteorological inputs were used                 
+ME W181      40       MEOPEN: BULKRN Delta-T & SolarRad option for SBL was used     with MMIF
+ME W531      40       MEOPEN: CAUTION! Met Station ID Missing from SURFFILE for      SURFDATA
+MX W394       1       METEXT: Met data may be from outdated version of AERMET:     No NAD/ADJ

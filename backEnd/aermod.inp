@@ -1,0 +1,49 @@
+** To run the example, copy the AERTEST.INP file to AERMOD.INP and type:                                                                                                        
+**                                                                                                                                  
+**    AERMOD
+**                                                                                                                                  
+** The results for this example problem are provided in file AERMOD.OUT.
+
+CO STARTING                                                                                                                         
+   TITLEONE A Simple Example Problem for the AERMOD Model with PRIME
+   MODELOPT  CONC   FLAT
+   AVERTIME  1 PERIOD                                                                                                          
+   POLLUTID  SO2                                                                                                                    
+   RUNORNOT  RUN
+   EVENTFIL  aertest_evt.inp
+   ERRORFIL  ERRORS.OUT
+CO FINISHED
+
+SO STARTING
+   ELEVUNIT  METERS
+   LOCATION  STACK1  POINT  695445 9854187 935.35
+
+** Point Source       QS      HS     TS    VS    DS
+** Parameters:       ----    ----   ----  ----   ---
+   SRCPARAM  STACK1  3.38    65.0  736.15  2997291.46   0.102
+   SRCGROUP  POL1 STACK1
+
+
+SO FINISHED
+    
+RE STARTING
+   INCLUDED RECEPT.ROU
+RE FINISHED                                                                                                                         
+                                                                                                                                     
+ME STARTING                                                                                                                         
+   SURFFILE  MET2119246_AERMET_2019-2020.sfc
+   PROFFILE  MET2119246_AERMET_2019-2020.pfl
+   SURFDATA  99999  2019  
+   UAIRDATA  99999  2019                                                                                  
+   SITEDATA  99999  2019 
+   PROFBASE  0.0  METERS
+ME FINISHED                                                                                                                         
+                                                                                                                                     
+OU STARTING                                                                                                                         
+   RECTABLE  ALLAVE  FIRST-THIRD
+   MAXTABLE  ALLAVE  50
+   RANKFILE  1 50 RANK1.RNK
+   MAXIFILE  1 POL1 50.0 MAX1H_POL1.OUT
+   SUMMFILE  AERTEST.SUM  
+   PLOTFILE  1 POL1 FIRST AERMOD_1.PLT
+OU FINISHED

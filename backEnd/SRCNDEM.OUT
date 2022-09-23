@@ -1,0 +1,31 @@
+** AERMAP - VERSION 18081                                              09/22/22
+**                                                                     14:52:05
+
+LOOKING AT NEDs FOR SRC:       1
+SRC#:      1    SLAT/LON:         -1.31858971        -79.24339982
+             SHIFTL/L(S):          0.00000000          0.00000000
+            UTM(E/N/Zon):          695445.000         9854187.000  -17
+             SHIFTX/Y(M):          0.00000000          0.00000000   SRC NAD:  3
+
+   NED No.:    1 NED Name: NED:a1.tif                               NED NAD:  3
+        NED Max. LAT/LON(D.D):       -1.00000      -78.00000
+             Src LAT/LON(D.D):       -1.31859      -79.24340
+        NED Min. LAT/LON(D.D):       -2.00000      -79.00000
+
+        NED Max. LAT/LON(Sec):    -3600.00000  -280800.00000
+             Src LAT/LON(Sec):    -4746.92296  -285276.23936
+        NED Min. LAT/LON(Sec):    -7200.00000  -284400.00000
+
+STILL LOOKING AT NEDs FOR SRC:       1
+
+   NED No.:    2 NED Name: NED:a2.tif                               NED NAD:  3
+        NED Max. LAT/LON(D.D):       -1.00000      -79.00000
+             Src LAT/LON(D.D):       -1.31859      -79.24340
+        NED Min. LAT/LON(D.D):       -2.00000      -80.00000
+
+        NED Max. LAT/LON(Sec):    -3600.00000  -284400.00000
+             Src LAT/LON(Sec):    -4746.92296  -285276.23936
+        NED Min. LAT/LON(Sec):    -7200.00000  -288000.00000
+
+NED No.:    2 Contains Src No.:      1
+

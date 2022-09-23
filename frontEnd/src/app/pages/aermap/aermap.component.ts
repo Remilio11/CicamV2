@@ -13,8 +13,8 @@ import {ConfigService} from '../config/configAermap.service';
 })
 export class AermapComponent implements OnInit {
 
-  file1!: File;
-  file2!: File;
+  file1: File | undefined;
+  file2: File | undefined;
   
   position = {
     lat  : -0.211715,
@@ -64,10 +64,23 @@ export class AermapComponent implements OnInit {
    }
 
   ngOnInit(): void {
+    const fuentesInStorage = localStorage.getItem('fuentes')
+    if(fuentesInStorage != null) {
+      this.fuentes = JSON.parse(fuentesInStorage)
+    }
   }
 
   /*Funcion del boton Generar */
   generar(){
+    if(this.file1 === undefined || this.file2 === undefined){
+      this.error = "Debes escoger dos archivos"
+      Swal.fire(
+        'Error',
+        'Debes escoger dos archivos',
+        'error'
+      )
+      return;
+    }
     this.error = ""
     const {X, Y, Zona, Y_SC, X_SC, Zona_SC, DatoHorizontal, Y_NumRep_RC, Y_SepRep_RC, Y_InicioCuad_RC, X_SepRep_RC, X_NumRep_RC, X_InicioCuad_RC} = this.aermap.value;
     const data: ICreateAermap = {
@@ -78,8 +91,13 @@ export class AermapComponent implements OnInit {
       return;
     }
     this.loading = true
-    this.aermapService.sendAermapData(data).subscribe((data: any) => {
-      FileSaver.saveAs(data, `aermap.inp`);
+    this.aermapService.sendAermapData(data, this.file1, this.file2).subscribe((data: any) => {
+      Swal.fire(
+        'Exito',
+        'Se generó el archivo Aermap',
+        'success'
+      )
+      FileSaver.saveAs(data, `RECEPT.ROU`);
       this.loading = false
   });
   }
@@ -94,6 +112,7 @@ export class AermapComponent implements OnInit {
       this.fuentes.push({
         longitud, latitud, hlvlMar
       })
+      localStorage.setItem("fuentes", JSON.stringify(this.fuentes));
     }
   }
 

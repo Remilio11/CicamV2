@@ -3,8 +3,9 @@ const { getAermapData, generateAermapFile, getAermapROU } = require('../controll
 const multerAermap = require('../libs/multerAermap');
 const router = express.Router();
 
-router.post('/', multerAermap.array('files'), generateAermapFile, getAermapData);
+router.post('/', multerAermap.array('files'), generateAermapFile);
 
+router.post('/generate-aermap', getAermapData);
 
 router.post('/getSFC', getAermapROU);
 

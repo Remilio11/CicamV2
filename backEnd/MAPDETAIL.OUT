@@ -1,0 +1,110 @@
+** AERMAP - VERSION 18081                                              09/22/22
+**                                                                     14:52:05
+
+ From NEDCHK:
+
+***********************
+ OPENING FILE: 
+
+   NED File #:         1
+   NED File Name: a1.tif                                                                                                                                                                                                  
+
+
+ Attempting to read TIFF file header.
+
+ Byte order: Little Endian 
+   IFD Offset (bytes):     25956374
+
+ Attempting to read TIFF tags.
+
+ Columns (profiles):       3601
+ Rows (nodes/profile):     3601
+
+ WARNING: TIFF Tag   274: Orientation          was not found - default used for
+          NED file:      1.
+          Orientation = 1; row-major with (0,0) = NW corner
+
+ TIFF Data Organization: Strips
+           RowsPerStrip:      1
+ TIFF Data SampleFormat: signed integer
+         BytesPerSample:      2
+ Coordinate Type:  Geographic Lat-Lon System
+ Horizontal Datum: World Geodetic System of 1984           
+
+ WARNING: Horizontal Datum WGS84    is unexpected for NED file:      1.
+          NED data are normally based on NAD83.
+
+
+ WARNING: Elevation units not found in NED file      1.
+          Default units of METERS assumed.
+
+ GT Raster Type = Pixel Is Area
+   Model Tie Point (NW corner) adjusted to midpoint of pixel.
+ X Model Tie Point (NW corner of file):    -79.000139 (degrees);  -284400.500 (arc-seconds)
+ Y Model Tie Point (NW corner of file):     -0.999861 (degrees);    -3599.500 (arc-seconds)
+ Z Model Tie Point (reference elevation):       0.000  meters
+ Spatial Res. X:  0.000277778 (degrees);     1.000000 (arc-seconds)
+ Spatial Res. Y:  0.000277778 (degrees);     1.000000 (arc-seconds)
+ Spatial Res. Z:       1.0000  meters
+ SW Corner Lon (degrees):  -79.000000
+ SW Corner Lat (degrees):   -2.000000
+ NW Corner Lon (degrees):  -79.000000
+ NW Corner Lat (degrees):   -1.000000
+ NE Corner Lon (degrees):  -78.000000
+ NE Corner Lat (degrees):   -1.000000
+ SE Corner Lon (degrees):  -78.000000
+ SE Corner Lat (degrees):   -2.000000
+ Reference UTM Zone (SW corner): -17
+
+***********************
+ OPENING FILE: 
+
+   NED File #:         2
+   NED File Name: a2.tif                                                                                                                                                                                                  
+
+
+ Attempting to read TIFF file header.
+
+ Byte order: Little Endian 
+   IFD Offset (bytes):     25956374
+
+ Attempting to read TIFF tags.
+
+ Columns (profiles):       3601
+ Rows (nodes/profile):     3601
+
+ WARNING: TIFF Tag   274: Orientation          was not found - default used for
+          NED file:      2.
+          Orientation = 1; row-major with (0,0) = NW corner
+
+ TIFF Data Organization: Strips
+           RowsPerStrip:      1
+ TIFF Data SampleFormat: signed integer
+         BytesPerSample:      2
+ Coordinate Type:  Geographic Lat-Lon System
+ Horizontal Datum: World Geodetic System of 1984           
+
+ WARNING: Horizontal Datum WGS84    is unexpected for NED file:      2.
+          NED data are normally based on NAD83.
+
+
+ WARNING: Elevation units not found in NED file      2.
+          Default units of METERS assumed.
+
+ GT Raster Type = Pixel Is Area
+   Model Tie Point (NW corner) adjusted to midpoint of pixel.
+ X Model Tie Point (NW corner of file):    -80.000139 (degrees);  -288000.500 (arc-seconds)
+ Y Model Tie Point (NW corner of file):     -0.999861 (degrees);    -3599.500 (arc-seconds)
+ Z Model Tie Point (reference elevation):       0.000  meters
+ Spatial Res. X:  0.000277778 (degrees);     1.000000 (arc-seconds)
+ Spatial Res. Y:  0.000277778 (degrees);     1.000000 (arc-seconds)
+ Spatial Res. Z:       1.0000  meters
+ SW Corner Lon (degrees):  -80.000000
+ SW Corner Lat (degrees):   -2.000000
+ NW Corner Lon (degrees):  -80.000000
+ NW Corner Lat (degrees):   -1.000000
+ NE Corner Lon (degrees):  -79.000000
+ NE Corner Lat (degrees):   -1.000000
+ SE Corner Lon (degrees):  -79.000000
+ SE Corner Lat (degrees):   -2.000000
+ Reference UTM Zone (SW corner): -17
